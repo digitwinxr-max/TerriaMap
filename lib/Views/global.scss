@@ -198,6 +198,45 @@ body {
     }
   }
   
+  /* ========================================
+     DigiTwinXR Demo Workspace Badge
+     ======================================== */
+  
+  .digtwinxr-demo-badge {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 9997;
+    padding: 10px 16px;
+    background: rgba(40, 45, 52, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 8px;
+    border: 1px solid rgba(77, 170, 255, 0.25);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 1px rgba(77, 170, 255, 0.2) inset;
+    text-align: center;
+    pointer-events: none;
+  }
+  
+  .digtwinxr-demo-label {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #4daaff;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 3px;
+  }
+  
+  .digtwinxr-demo-sublabel {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
   .digtwinxr-attribution {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: 11px;
