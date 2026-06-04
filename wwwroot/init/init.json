@@ -94,7 +94,7 @@
             {
               "id": "climate-early-warning",
               "type": "geojson",
-              "name": "Climate Early Warning Centre",
+              "name": "Climate Risk Monitoring",
               "url": "data/climate_early_warning.geojson",
               "style": {
                 "fillColor": "#e74c3c",
@@ -106,7 +106,7 @@
             {
               "id": "flood-risk",
               "type": "geojson",
-              "name": "Flood Risk Zones",
+              "name": "Flood Exposure Analysis",
               "url": "data/flood_risk.geojson",
               "style": {
                 "fillColor": "#3498db",
@@ -118,7 +118,7 @@
             {
               "id": "drought-risk",
               "type": "geojson",
-              "name": "Drought Risk Zones",
+              "name": "Agricultural Resilience Assessment",
               "url": "data/drought_risk.geojson",
               "style": {
                 "fillColor": "#e74c3c",
@@ -130,7 +130,7 @@
             {
               "id": "heat-stress",
               "type": "geojson",
-              "name": "Heat Stress Zones",
+              "name": "Heat Impact Assessment",
               "url": "data/heat_stress.geojson",
               "style": {
                 "fillColor": "#f39c12",
@@ -142,7 +142,7 @@
             {
               "id": "wildfire-risk",
               "type": "geojson",
-              "name": "Wildfire Risk Zones",
+              "name": "Environmental Risk Assessment",
               "url": "data/wildfire_risk.geojson",
               "style": {
                 "fillColor": "#e67e22",
@@ -154,7 +154,7 @@
             {
               "id": "carbon-stocks",
               "type": "geojson",
-              "name": "Carbon Stock Assessment",
+              "name": "Carbon Asset Opportunities",
               "url": "data/carbon_stocks.geojson",
               "style": {
                 "fillColor": "#27ae60",
@@ -178,7 +178,7 @@
             {
               "id": "climate-vuln-index",
               "type": "geojson",
-              "name": "Climate Vulnerability Index",
+              "name": "Community Vulnerability Score",
               "url": "data/climate_vulnerability_index.geojson",
               "style": {
                 "fillColor": "#e74c3c",
@@ -347,7 +347,7 @@
             {
               "id": "carbon-credits",
               "type": "geojson",
-              "name": "Carbon Credit Opportunities",
+              "name": "Carbon Finance Opportunities",
               "url": "data/carbon_credit_opportunities.geojson",
               "style": {
                 "fillColor": "#27ae60",
@@ -359,7 +359,7 @@
             {
               "id": "parametric-insurance",
               "type": "geojson",
-              "name": "Parametric Insurance Potential",
+              "name": "Climate Protection Solutions",
               "url": "data/parametric_insurance.geojson",
               "style": {
                 "fillColor": "#3498db",
@@ -457,7 +457,7 @@
             {
               "id": "ai-reco",
               "type": "csv",
-              "name": "AI Recommendations",
+              "name": "AI Investment Recommendations",
               "url": "data/ai_recommendations.csv",
               "idColumn": "recommendation_id"
             }
