@@ -1,0 +1,9 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_index,risk_index,sadc_expansion_score,market_readiness,replicability,ai_recommendation
+NAM-REG-001,Walvis Bay Port,Namibia,Infrastructure,22.9500,14.5100,90,0.18,95,92,95,Expand smart port automation for SADC landlocked access.
+NAM-REG-002,Hosea Kutako Airport,Namibia,Infrastructure,22.4833,17.4700,88,0.20,85,82,88,Implement cargo digitization and climate adaptation.
+NAM-MIN-001,Husab Uranium Mine,Namibia,Mining,22.9500,14.8300,87,0.24,90,92,90,Deploy advanced automation and autonomous transport.
+NAM-MIN-002,Skorpion Zinc Mine,Namibia,Mining,28.5333,16.2333,79,0.35,82,80,85,Implement ESG monitoring and water recycling.
+NAM-ENE-001,Green Hydrogen Namibia,Namibia,Energy,22.8500,17.0800,65,0.55,95,88,98,Scale electrolyzer and establish SADC export corridor.
+NAM-ENE-002,Walvis Bay Wind Farm,Namibia,Energy,22.9500,14.4500,80,0.30,88,85,90,Expand capacity with storage integration.
+NAM-ICT-001,Namibia Internet Exchange,Namibia,ICT,22.5667,17.0833,82,0.28,88,85,88,Deploy submarine cable redundancy.
+NAM-ICT-002,Windhoek Data Centre,Namibia,ICT,22.5667,17.0833,84,0.26,85,82,85,Implement disaster recovery and renewable power.

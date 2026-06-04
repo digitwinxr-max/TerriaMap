@@ -1,0 +1,23 @@
+module_name,kpi_type,value,unit,trend,status,description
+Executive Command Centre,countries_covered,3,Countries,stable,Green,Botswana, Namibia, South Africa
+Executive Command Centre,infrastructure_health,78,%,increasing,Green,Weighted average of asset health scores
+Executive Command Centre,climate_risk_index,63,Score,stable,Yellow,Composite of flood, drought, heat, wildfire risks
+Executive Command Centre,esg_readiness_score,82,Score,increasing,Green,Environmental, Social, Governance compliance
+Executive Command Centre,carbon_opportunity_value,123,Million USD,increasing,Green,Verified carbon credit potential
+Executive Command Centre,active_ai_alerts,5,Alerts,increasing,Yellow,Climate and infrastructure early warnings
+Executive Command Centre,economic_exposure,4800,Million USD,stable,Red,Total asset value at climate risk
+Executive Command Centre,investment_pipeline_value,148,Million USD,increasing,Green,Total CAPEX of strategic investment projects
+Executive Command Centre,climate_finance_potential,465,Million USD,increasing,Green,Total climate finance opportunity
+Executive Command Centre,projects_investor_ready,3,Projects,stable,Green,Projects with funding readiness score >60
+Executive Command Centre,projects_under_assessment,3,Projects,increasing,Yellow,Projects in early development stage
+Executive Command Centre,sector_infrastructure_status,High,Status,declining,Yellow,Major transport corridors
+Executive Command Centre,sector_energy_status,Moderate,Status,stable,Yellow,Generation capacity adequate
+Executive Command Centre,sector_water_status,Critical,Status,declining,Red,Drought vulnerability high
+Executive Command Centre,sector_agriculture_status,High,Status,declining,Yellow,NDVI declining
+Executive Command Centre,sector_mining_status,Moderate,Status,stable,Green,ESG compliance improving
+Executive Command Centre,sector_logistics_status,Moderate,Status,stable,Green,Efficiency improving
+Executive Command Centre,sector_ict_status,Low,Status,increasing,Green,Digital readiness high
+Executive Command Centre,botswana_readiness,85,Score,stable,Green,Market maturity and infrastructure
+Executive Command Centre,namibia_readiness,82,Score,increasing,Green,Strategic location advantage
+Executive Command Centre,southafrica_readiness,92,Score,stable,Green,Most developed market
+Executive Command Centre,decision_lifecycle,Observe/Analyze/Prioritize/Invest/Monitor,Framework,stable,Green,Complete decision-making lifecycle

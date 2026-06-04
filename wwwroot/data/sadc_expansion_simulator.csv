@@ -1,0 +1,11 @@
+country,country_code,market_readiness,climate_risk,digital_maturity,investment_potential,ease_of_entry,composite_score,rank,key_sectors,expansion_priority,expansion_timeline
+Zambia,ZMB,87,72,68,82,78,77.4,1,Mining,Agriculture,High,12 months
+Angola,AGO,75,68,52,85,72,70.4,2,Oil Gas,Mining,Medium,18 months
+Mozambique,Moz,82,78,65,88,75,77.6,3,LNG,Agriculture,Mining,High,12 months
+Zimbabwe,ZWE,72,75,62,78,68,71.0,4,Mining,Agriculture,Medium,18 months
+Tanzania,TZA,78,70,58,85,72,72.6,5,Mining,Agriculture,Tourism,Medium,18 months
+Malawi,MWI,68,72,55,72,65,66.4,6,Agriculture,Mining,Low,24 months
+Democratic Republic of Congo,DRC,62,70,48,88,55,64.6,7,Mining,Oil Gas,Low,24 months
+Namibia (Reference),NAM,88,68,82,85,90,82.6,Deployed,Logistics,Tourism,Mining,Deployed,N/A
+Botswana (Reference),BWA,92,72,88,88,92,86.4,Deployed,Mining,Energy,ICT,Deployed,N/A
+South Africa (Reference),ZAF,95,75,92,95,88,89.0,Deployed,Mining,Energy,Agriculture,Deployed,N/A

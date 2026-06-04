@@ -1,0 +1,7 @@
+asset_id,asset_name,country,sector,latitude,longitude,climate_finance_readiness,esg_readiness,carbon_opportunity,adaptation_need,investment_attractiveness,project_value_usd,ai_recommendation
+CF-001,Solar Corridor Expansion,South Africa,Climate Finance,-28.0000,26.0000,88,85,82,75,90,50000000,Deploy renewable energy corridor with climate finance bonds and green infrastructure financing.
+CF-002,Smart Water Security,Botswana,Climate Finance,75,82,78,88,72,20000000,Implement AI-driven smart water management with climate adaptation bonds.
+CF-003,Regional Climate Adaptation,Botswana/Namibia/South Africa,Climate Finance,82,80,75,90,85,45000000,Scale regional adaptation program with multilateral climate finance.
+CF-004,Carbon Credit Development,Namibia,Climate Finance,90,88,95,70,92,35000000,Expand verified carbon credits with community-based conservation.
+CF-005,Mining ESG Transition,South Africa,Climate Finance,78,92,85,65,82,120000000,Deploy mining ESG transition bonds for decarbonization.
+CF-006,Green Hydrogen Export,Namibia,Climate Finance,92,80,90,60,95,250000000,Scale green hydrogen with international climate finance mechanisms.

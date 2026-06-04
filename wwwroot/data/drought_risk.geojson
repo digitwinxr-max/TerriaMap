@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "name": "Drought Risk Zones",
+  "description": "Drought severity assessment showing water stress, agricultural impact, and vulnerable areas",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "drought-001",
+      "properties": {
+        "name": "Kalahari Drought Zone",
+        "risk_level": "high",
+        "severity_score": 75,
+        "affected_area_km2": 180000,
+        "population_affected": 280000,
+        "primary_hazards": "prolonged_drought,water_scarcity",
+        "water_stress_level": "critical",
+        "recommended_actions": "Implement water harvesting, drought-resistant crops, and community water management"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[20.0, -21.0], [24.0, -21.0], [24.0, -24.0], [20.0, -24.0], [20.0, -21.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "drought-002",
+      "properties": {
+        "name": "Namib Desert Fringe",
+        "risk_level": "high",
+        "severity_score": 72,
+        "affected_area_km2": 120000,
+        "population_affected": 85000,
+        "primary_hazards": "aridity,groundwater_depletion",
+        "water_stress_level": "severe",
+        "recommended_actions": "Deploy desalination, fog harvesting, and climate-smart water policies"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[14.0, -18.0], [18.0, -18.0], [18.0, -23.0], [14.0, -23.0], [14.0, -18.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "drought-003",
+      "properties": {
+        "name": "Mpumalanga Lowveld",
+        "risk_level": "medium",
+        "severity_score": 58,
+        "affected_area_km2": 45000,
+        "population_affected": 180000,
+        "primary_hazards": "cyclone_drought,agricultural_loss",
+        "water_stress_level": "moderate",
+        "recommended_actions": "Implement irrigation efficiency and crop diversification programs"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[30.0, -25.0], [32.0, -25.0], [32.0, -27.0], [30.0, -27.0], [30.0, -25.0]]]
+      }
+    }
+  ]
+}

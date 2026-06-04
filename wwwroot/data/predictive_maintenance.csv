@@ -1,0 +1,16 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_score,failure_probability,remaining_useful_life,recommended_intervention,intervention_priority,predictive_confidence
+PM-001,Kazungula Bridge,Botswana,Infrastructure,17.7886,25.2586,82,0.07,12,Structural inspection and fatigue monitoring,Medium,89
+PM-002,Sir Seretse Khama Airport,Botswana,Infrastructure,24.9619,25.9186,85,0.05,15,Runway surface renewal and drainage upgrade,Medium,92
+PM-003,Walvis Bay Port,Namibia,Infrastructure,22.9500,14.5100,90,0.03,20,Corrosion monitoring and cathodic protection,Low,94
+PM-004,Hosea Kutako Airport,Namibia,Infrastructure,22.4833,17.4700,88,0.04,18,Terminal expansion planning and HVAC upgrade,Medium,91
+PM-005,OR Tambo Airport,South Africa,Infrastructure,25.9153,28.2414,90,0.03,22,Automated passenger flow optimization,Low,95
+PM-006,Richards Bay Port,South Africa,Infrastructure,28.7800,32.0400,88,0.04,16,Flood barrier installation and cargo handling upgrade,High,93
+PM-007,Gaborone Dam,Botswana,Water,68,0.18,8,Leak detection and dam safety monitoring,Critical,85
+PM-008,Swakopmund Desalination,Namibia,Water,76,0.12,15,Membrane replacement scheduling and efficiency optimization,Medium,88
+PM-009,Vaal Dam,South Africa,Water,80,0.10,18,Spillway safety assessment and monitoring upgrade,High,90
+PM-010,Morupule B Power Station,Botswana,Energy,72,0.15,10,Boiler tube inspection and hybrid solar integration,High,86
+PM-011,Koeberg Nuclear Station,South Africa,Energy,78,0.08,25,Safety system upgrade and license extension preparation,Critical,92
+PM-012,Jwaneng Mine,Botswana,Mining,88,0.05,15,Conveyor belt monitoring and autonomous fleet expansion,Medium,94
+PM-013,Husab Mine,Namibia,Mining,87,0.06,14,Grade control optimization and tailings monitoring,Medium,93
+PM-014,Sishen Mine,South Africa,Mining,84,0.07,12,Autonomous rail haulage and stockpile management,High,91
+PM-015,Platinum Belt Complex,South Africa,Mining,80,0.09,10,Water recycling and renewable microgrid deployment,High,89

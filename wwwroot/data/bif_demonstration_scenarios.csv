@@ -1,0 +1,7 @@
+scenario_id,scenario_name,description,focus_layers,focus_countries,key_metrics,demonstration_value
+BIF-001,Climate Resilience Planning,Demonstrate climate risk monitoring and adaptation planning,Flood Risk,Drought Risk,Climate Vulnerability Index,68,Showcase predictive climate analytics
+BIF-002,Mining ESG Monitoring,Demonstrate mining ESG compliance and autonomous operations,Mining Operations,Carbon Monitoring,ESG Score,88,Present operational intelligence
+BIF-003,Energy Transition Planning,Demonstrate renewable integration and grid resilience,Energy Dashboard,Carbon Stocks,Renewable Penetration,65,Highlight transition opportunities
+BIF-004,Agricultural Drought Intelligence,Demonstrate NDVI monitoring and crop stress detection,Agricultural Dashboard,Drought Risk,NDVI Value,0.62,Showcase earth observation
+BIF-005,Climate Finance Investment Readiness,Demonstrate ESG scoring and green investment pipeline,Climate Finance,Carbon Credits,Finance Readiness,88,Present investment opportunities
+BIF-006,SADC Expansion Assessment,Demonstrate regional scalability and market readiness,SADC Expansion,Frost Sullivan Opportunities,Composite Score,77,Showcase expansion potential

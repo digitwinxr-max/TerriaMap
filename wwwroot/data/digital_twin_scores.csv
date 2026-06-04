@@ -1,0 +1,19 @@
+asset_id,asset_name,country,sector,infrastructure_health_score,climate_vulnerability_index,investment_attractiveness_index
+INF-001,SSK Airport,Botswana,Infrastructure,78,68,76
+INF-002,Kazungula Bridge,Botswana,Infrastructure,88,72,82
+INF-003,Walvis Bay Port,Namibia,Infrastructure,82,52,95
+INF-004,Hosea Kutako Airport,Namibia,Infrastructure,80,58,86
+INF-005,OR Tambo Airport,South Africa,Infrastructure,84,62,92
+INF-006,Richards Bay Port,South Africa,Infrastructure,82,60,90
+ENE-001,Morupule B,Botswana,Energy,68,78,70
+ENE-002,Phakalane Solar,Botswana,Energy,78,68,85
+ENE-003,Green Hydrogen,Namibia,Energy,62,72,80
+ENE-004,Walvis Bay Wind,Namibia,Energy,75,62,88
+ENE-005,Koeberg Nuclear,South Africa,Energy,74,68,85
+ENE-006,Cohen Solar Cluster,South Africa,Energy,80,58,92
+MIN-001,Jwaneng Mine,Botswana,Mining,85,62,90
+MIN-002,Orapa Mine,Botswana,Mining,80,58,88
+MIN-003,Husab Mine,Namibia,Mining,84,52,92
+MIN-004,Skorpion Zinc,Namibia,Mining,76,65,80
+MIN-005,Sishen Mine,South Africa,Mining,82,58,90
+MIN-006,Platinum Belt,South Africa,Mining,78,62,85

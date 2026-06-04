@@ -1,0 +1,9 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_index,risk_index,sadc_expansion_score,market_readiness,replicability,ai_recommendation
+ZAF-REG-001,OR Tambo Airport,South Africa,Infrastructure,25.9153,28.2414,90,0.15,98,95,98,Deploy AI operations for 35% capacity increase.
+ZAF-REG-002,Durban Port,South Africa,Infrastructure,29.7800,32.0400,88,0.20,95,92,95,Implement flood protection and smart automation.
+ZAF-MIN-001,Sishen Iron Ore Mine,South Africa,Mining,27.6700,23.0100,84,0.30,90,92,88,Implement autonomous rail and AI stockpile management.
+ZAF-MIN-002,Platinum Belt Complex,South Africa,Mining,25.5000,27.3000,80,0.35,88,88,85,Deploy renewable microgrids and water recycling.
+ZAF-ENE-001,Koeberg Nuclear Station,South Africa,Energy,33.6825,18.4287,78,0.38,85,88,82,Extend license with safety monitoring systems.
+ZAF-ENE-002,Coega Solar Cluster,South Africa,Energy,33.8000,25.6000,85,0.25,92,90,88,Deploy AI grid balancing with storage.
+ZAF-ICT-001,Teraco Isando Data Centre,South Africa,ICT,26.1000,28.2200,95,0.08,98,98,95,Deploy carbon-neutral AI infrastructure.
+ZAF-ICT-002,Mogale AI Innovation Hub,South Africa,ICT,26.1200,27.4700,72,0.42,88,85,92,Deploy AI computing cluster and digital skills.

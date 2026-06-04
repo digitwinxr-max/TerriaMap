@@ -1,0 +1,7 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_index,risk_index,digital_readiness,connectivity_risk,ai_capacity,broadband_coverage,data_centre_capacity,ai_recommendation
+ICT-001,Botswana Innovation Hub,Botswana,ICT,-24.6500,25.9000,80,0.32,82,0.35,78,72,65,Expand AI computing infrastructure and green data center technologies.
+ICT-002,Botswana Fibre Backbone,Botswana,ICT,-22.0000,26.0000,78,0.35,78,0.40,72,68,58,Deploy AI-driven network optimization and climate-resilient fiber routes.
+ICT-003,Namibia Internet Exchange,Namibia,ICT,-22.5667,17.0833,82,0.28,88,0.32,82,80,72,Expand submarine cable redundancy and regional IXP interconnection.
+ICT-004,Namibia Data Centre,Namibia,ICT,-22.5667,17.0833,84,0.26,86,0.30,85,82,78,Implement disaster recovery and renewable energy powered infrastructure.
+ICT-005,Teraco Isando Data Centre,South Africa,ICT,-26.1000,28.2200,95,0.08,98,0.12,95,95,92,Deploy AI infrastructure expansion and carbon-neutral operations.
+ICT-006,Mogale AI Innovation Hub,South Africa,ICT,-26.1200,27.4700,72,0.42,82,0.45,88,75,70,Deploy AI computing cluster and digital skills accelerator program.

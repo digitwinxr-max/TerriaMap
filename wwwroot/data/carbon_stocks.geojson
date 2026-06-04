@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "name": "Carbon Stock Assessment",
+  "description": "Carbon stock mapping and carbon sequestration potential across Southern Africa",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "carbon-001",
+      "properties": {
+        "name": "Okavango Mangrove Carbon",
+        "carbon_stock_tC": 8500000,
+        "sequestration_rate_tC_year": 180000,
+        "carbon_credit_potential_USD": 4500000,
+        "ecosystem_type": "wetland",
+        "verification_status": "verified",
+        "threats": "drought,invasive_species",
+        "recommended_actions": "Implement REDD+ program, establish carbon credits, deploy monitoring"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.5, -18.0], [24.0, -18.0], [24.0, -19.5], [22.5, -19.5], [22.5, -18.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "carbon-002",
+      "properties": {
+        "name": "Kalahari Sandveld Carbon",
+        "carbon_stock_tC": 4200000,
+        "sequestration_rate_tC_year": 95000,
+        "carbon_credit_potential_USD": 2300000,
+        "ecosystem_type": "savanna",
+        "verification_status": "verified",
+        "threats": "overgrazing,fire,climate_change",
+        "recommended_actions": "Implement grazing management, establish carbon verification, deploy fire prevention"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[20.0, -20.0], [24.0, -20.0], [24.0, -23.0], [20.0, -23.0], [20.0, -20.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "carbon-003",
+      "properties": {
+        "name": "Drakensberg Forest Carbon",
+        "carbon_stock_tC": 12000000,
+        "sequestration_rate_tC_year": 220000,
+        "carbon_credit_potential_USD": 5800000,
+        "ecosystem_type": "afromontane_forest",
+        "verification_status": "in_progress",
+        "threats": "deforestation,invasive_species",
+        "recommended_actions": "Expand forest conservation, implement community benefits, deploy monitoring"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[28.0, -28.0], [30.0, -28.0], [30.0, -29.5], [28.0, -29.5], [28.0, -28.0]]]
+      }
+    }
+  ]
+}

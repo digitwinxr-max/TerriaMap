@@ -1,0 +1,7 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_index,risk_index,water_security,drought_vulnerability,demand_forecast,supply_capacity,ai_recommendation
+WAT-001,Gaborone Dam,Botswana,Water,-24.7117,25.8750,68,0.52,55,0.75,78,62,Deploy AI-driven smart water management with leak detection and demand forecasting.
+WAT-002,North-South Carrier,Botswana,Water,-23.5000,26.5000,75,0.42,68,0.68,82,72,Implement real-time water quality monitoring and climate-adaptive releases.
+WAT-003,Swakopmund Desalination Plant,Namibia,Water,-22.6833,14.5333,76,0.38,85,0.42,95,88,Expand capacity with renewable energy and AI-optimized distribution.
+WAT-004,Windhoek Reclamation,Namibia,Water,-22.5667,17.0833,80,0.32,78,0.52,88,82,Implement greywater recycling and smart metering systems.
+WAT-005,Vaal Dam,South Africa,Water,-26.8767,27.7017,80,0.30,72,0.62,85,92,Deploy AI-driven reservoir optimization and smart agricultural water trading.
+WAT-006,Lesotho Highlands Interface,Lesotho/South Africa,Water,-29.5000,28.5000,85,0.22,88,0.52,95,92,Expand inter-basin transfer capacity with climate-adaptive management.

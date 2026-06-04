@@ -1,0 +1,295 @@
+{
+  "type": "FeatureCollection",
+  "name": "Frost & Sullivan Opportunity Landscape",
+  "description": "Strategic market opportunities aligned with Frost & Sullivan Southern Africa Development Framework",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fs-001",
+      "properties": {
+        "name": "Mining Intelligence Market",
+        "opportunity_category": "Mining Intelligence",
+        "market_size_usd": "85000000000",
+        "growth_potential": "High",
+        "growth_rate": "12% CAGR",
+        "strategic_importance": "Very High",
+        "regional_scalability": "High",
+        "dig twin_xr_fit_score": 92,
+        "market_opportunity_usd": "85000000000",
+        "growth_potential_detail": "12% CAGR through 2030",
+        "strategic_importance_detail": "Critical for regional industrialization",
+        "scalability_detail": "Botswana, South Africa operations",
+        "dig twin_xr_capability": "ESG monitoring, autonomous operations, tailings management, water efficiency",
+        "key_customers": "Debswana, Anglo American, BHP, Glencore, Implats",
+        "investment_thesis": "Mining sector digitization creates $85B opportunity for AI-powered monitoring and optimization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.0,
+              -28.0
+            ],
+            [
+              30.0,
+              -28.0
+            ],
+            [
+              30.0,
+              -24.0
+            ],
+            [
+              22.0,
+              -24.0
+            ],
+            [
+              22.0,
+              -28.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fs-002",
+      "properties": {
+        "name": "Energy Transition Market",
+        "opportunity_category": "Energy Transition",
+        "market_size_usd": "120000000000",
+        "growth_potential": "Very High",
+        "growth_rate": "18% CAGR",
+        "strategic_importance": "Critical",
+        "regional_scalability": "Very High",
+        "dig twin_xr_fit_score": 95,
+        "market_opportunity_usd": "120000000000",
+        "growth_potential_detail": "18% CAGR driven by renewable transition",
+        "strategic_importance_detail": "Decarbonization imperative for SADC",
+        "scalability_detail": "All SADC countries have renewable potential",
+        "dig twin_xr_capability": "Grid resilience, renewable integration, hydrogen economy, battery storage monitoring",
+        "key_customers": "Eskom, NamPower, IPP developers, Green hydrogen investors, Mining houses",
+        "investment_thesis": "Energy transition creates $120B opportunity for infrastructure monitoring and optimization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              -35.0
+            ],
+            [
+              32.0,
+              -35.0
+            ],
+            [
+              32.0,
+              -17.0
+            ],
+            [
+              14.0,
+              -17.0
+            ],
+            [
+              14.0,
+              -35.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fs-003",
+      "properties": {
+        "name": "Agricultural Resilience Market",
+        "opportunity_category": "Agricultural Resilience",
+        "market_size_usd": "25000000000",
+        "growth_potential": "Moderate",
+        "growth_rate": "8% CAGR",
+        "strategic_importance": "High",
+        "regional_scalability": "High",
+        "dig twin_xr_fit_score": 88,
+        "market_opportunity_usd": "25000000000",
+        "growth_potential_detail": "8% CAGR with climate-smart agriculture adoption",
+        "strategic_importance_detail": "Food security and rural development",
+        "scalability_detail": "Botswana, South Africa, Namibia agriculture",
+        "dig twin_xr_capability": "NDVI monitoring, crop stress detection, soil moisture, yield forecasting",
+        "key_customers": "Commercial farms, Agricultural cooperatives, Government ministries",
+        "investment_thesis": "Climate-smart agriculture creates $25B opportunity for precision monitoring"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0,
+              -35.0
+            ],
+            [
+              32.0,
+              -35.0
+            ],
+            [
+              32.0,
+              -17.0
+            ],
+            [
+              11.0,
+              -17.0
+            ],
+            [
+              11.0,
+              -35.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fs-004",
+      "properties": {
+        "name": "Climate Finance Market",
+        "opportunity_category": "Climate Finance",
+        "market_size_usd": "15000000000",
+        "growth_potential": "Very High",
+        "growth_rate": "25% CAGR",
+        "strategic_importance": "High",
+        "regional_scalability": "High",
+        "dig twin_xr_fit_score": 96,
+        "market_opportunity_usd": "15000000000",
+        "growth_potential_detail": "25% CAGR driven by ESG mandates",
+        "strategic_importance_detail": "Critical for climate adaptation financing",
+        "scalability_detail": "SADC-wide carbon markets emerging",
+        "dig twin_xr_capability": "Carbon credits, ESG scoring, adaptation projects, parametric insurance",
+        "key_customers": "Climate funds, Development banks, Carbon registries, Insurance companies",
+        "investment_thesis": "Climate finance creates $15B opportunity for verification and monitoring"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.0,
+              -18.0
+            ],
+            [
+              26.0,
+              -18.0
+            ],
+            [
+              26.0,
+              -22.0
+            ],
+            [
+              17.0,
+              -22.0
+            ],
+            [
+              17.0,
+              -18.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fs-005",
+      "properties": {
+        "name": "Digital Infrastructure Market",
+        "opportunity_category": "ICT & Digital",
+        "market_size_usd": "18000000000",
+        "growth_potential": "High",
+        "growth_rate": "15% CAGR",
+        "strategic_importance": "High",
+        "regional_scalability": "Very High",
+        "dig twin_xr_fit_score": 90,
+        "market_opportunity_usd": "18000000000",
+        "growth_potential_detail": "15% CAGR with digital transformation",
+        "strategic_importance_detail": "Enabler for all other sectors",
+        "scalability_detail": "SADC-wide connectivity expansion",
+        "dig twin_xr_capability": "Data centre monitoring, fiber network optimization, AI infrastructure",
+        "key_customers": "Telecom operators, Data centre operators, Tech companies",
+        "investment_thesis": "Digital infrastructure creates $18B opportunity for operational intelligence"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              -35.0
+            ],
+            [
+              32.0,
+              -35.0
+            ],
+            [
+              32.0,
+              -17.0
+            ],
+            [
+              14.0,
+              -17.0
+            ],
+            [
+              14.0,
+              -35.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fs-006",
+      "properties": {
+        "name": "Infrastructure Intelligence Market",
+        "opportunity_category": "Infrastructure",
+        "market_size_usd": "45000000000",
+        "growth_potential": "Moderate",
+        "growth_rate": "10% CAGR",
+        "strategic_importance": "Critical",
+        "regional_scalability": "High",
+        "dig twin_xr_fit_score": 94,
+        "market_opportunity_usd": "45000000000",
+        "growth_potential_detail": "10% CAGR with infrastructure investment",
+        "strategic_importance_detail": "Foundation for economic development",
+        "scalability_detail": "SADC infrastructure gap estimated at $100B",
+        "dig twin_xr_capability": "Asset health monitoring, predictive maintenance, risk assessment",
+        "key_customers": "Government ministries, Infrastructure funds, Engineering firms, DFIs",
+        "investment_thesis": "Infrastructure intelligence creates $45B opportunity for lifecycle management"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.0,
+              -25.0
+            ],
+            [
+              32.0,
+              -25.0
+            ],
+            [
+              32.0,
+              -17.0
+            ],
+            [
+              17.0,
+              -17.0
+            ],
+            [
+              17.0,
+              -25.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

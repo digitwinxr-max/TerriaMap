@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "name": "Wildfire Risk Zones",
+  "description": "Fire susceptibility, fire history, and wildfire management zones",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fire-001",
+      "properties": {
+        "name": "Kalahari Fire Belt",
+        "risk_level": "high",
+        "severity_score": 72,
+        "affected_area_km2": 85000,
+        "fire_return_years": 3,
+        "primary_causes": "human_accidental,lightning",
+        "burn_scar_mapping": "active",
+        "recommended_actions": "Implement prescribed burning, fire detection network, rapid response teams"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[20.0, -19.0], [25.0, -19.0], [25.0, -24.0], [20.0, -24.0], [20.0, -19.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire-002",
+      "properties": {
+        "name": "Namib Desert Fire Zone",
+        "risk_level": "medium",
+        "severity_score": 55,
+        "affected_area_km2": 45000,
+        "fire_return_years": 8,
+        "primary_causes": "lightning,rare_human",
+        "burn_scar_mapping": "moderate",
+        "recommended_actions": "Monitor vegetation recovery and implement early warning systems"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[14.0, -17.0], [18.0, -17.0], [18.0, -23.0], [14.0, -23.0], [14.0, -17.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire-003",
+      "properties": {
+        "name": "Highveld Fire Corridor",
+        "risk_level": "high",
+        "severity_score": 78,
+        "affected_area_km2": 65000,
+        "fire_return_years": 2,
+        "primary_causes": "agricultural_burning,escaped_fires",
+        "burn_scar_mapping": "frequent",
+        "recommended_actions": "Expand fire detection, community-based fire management, satellite monitoring"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.0, -24.0], [30.0, -24.0], [30.0, -28.0], [26.0, -28.0], [26.0, -24.0]]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "name": "Land Use Change Analysis",
+  "description": "Land use change detection showing deforestation, urban expansion, and environmental degradation",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "land-001",
+      "properties": {
+        "name": "Okavango Delta Change",
+        "change_type": "degradation",
+        "severity_score": 68,
+        "affected_area_km2": 12000,
+        "change_rate_percent": 2.5,
+        "primary_drivers": "agricultural_expansion,infrastructure,tourism",
+        "ecosystem_services": "biodiversity,water_regulation,tourism",
+        "time_period": "2015-2024",
+        "recommended_actions": "Implement zoning regulations, establish conservation corridors, deploy satellite monitoring"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.0, -18.5], [23.5, -18.5], [23.5, -20.0], [22.0, -20.0], [22.0, -18.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "land-002",
+      "properties": {
+        "name": "Gaborone Urban Expansion",
+        "change_type": "urban_expansion",
+        "severity_score": 75,
+        "affected_area_km2": 2800,
+        "change_rate_percent": 4.8,
+        "primary_drivers": "population_growth,industrial,transport",
+        "ecosystem_services": "agricultural_land,groundwater_recharge",
+        "time_period": "2015-2024",
+        "recommended_actions": "Implement smart growth boundaries, establish green corridors, deploy resilient planning"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.75, -25.0], [26.15, -25.0], [26.15, -25.35], [25.75, -25.35], [25.75, -25.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "land-003",
+      "properties": {
+        "name": "Highveld Mining Impact",
+        "change_type": "degradation",
+        "severity_score": 82,
+        "affected_area_km2": 8500,
+        "change_rate_percent": 3.2,
+        "primary_drivers": "coal_mining,tailings,dust_pollution",
+        "ecosystem_services": "water_quality,air_quality,biodiversity",
+        "time_period": "2015-2024",
+        "recommended_actions": "Implement mine rehabilitation bonds, deploy environmental monitoring, establish standards"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.5, -25.5], [28.0, -25.5], [28.0, -26.5], [26.5, -26.5], [26.5, -25.5]]]
+      }
+    }
+  ]
+}

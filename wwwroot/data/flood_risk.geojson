@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "name": "Flood Risk Zones",
+  "description": "Flood risk assessment showing flood zones, exposure, and infrastructure affected by flooding",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "flood-001",
+      "properties": {
+        "name": "Zambezi Flood Plain",
+        "risk_level": "high",
+        "severity_score": 78,
+        "affected_area_km2": 35000,
+        "population_affected": 45000,
+        "primary_hazards": "river_flooding,flash_floods",
+        "infrastructure_exposed": "Kazungula Bridge,Ferry Crossings",
+        "recommended_actions": "Deploy flood early warning systems, implement climate-resilient infrastructure design"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.5, -17.0], [25.5, -17.0], [25.5, -18.5], [22.5, -18.5], [22.5, -17.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flood-002",
+      "properties": {
+        "name": "Limpopo River Basin",
+        "risk_level": "medium",
+        "severity_score": 62,
+        "affected_area_km2": 28000,
+        "population_affected": 35000,
+        "primary_hazards": "seasonal_flooding,dam_failure_risk",
+        "infrastructure_exposed": "Cross-border roads,Irrigation schemes",
+        "recommended_actions": "Implement integrated flood management and dam safety monitoring"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.5, -24.0], [29.5, -24.0], [29.5, -25.5], [26.5, -25.5], [26.5, -24.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flood-003",
+      "properties": {
+        "name": "Orange River Corridor",
+        "risk_level": "low",
+        "severity_score": 45,
+        "affected_area_km2": 15000,
+        "population_affected": 12000,
+        "primary_hazards": "seasonal_river_rise",
+        "infrastructure_exposed": "Agriculture,Irrigation infrastructure",
+        "recommended_actions": "Maintain current monitoring and early warning systems"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[17.0, -28.0], [21.0, -28.0], [21.0, -30.0], [17.0, -30.0], [17.0, -28.0]]]
+      }
+    }
+  ]
+}

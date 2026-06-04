@@ -1,0 +1,7 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_index,risk_index,operational_risk,tailings_risk,esg_risk,water_consumption,carbon_intensity,ai_recommendation
+MIN-001,Jwaneng Mine,Botswana,Mining,-24.4775,24.5969,88,0.25,0.22,0.20,0.18,45,0.85,Implement autonomous vehicle fleet and AI-driven ore sorting for 12% recovery improvement.
+MIN-002,Orapa Mine,Botswana,Mining,-21.5333,25.5167,82,0.30,0.28,0.28,0.25,52,0.88,Deploy real-time grade monitoring and predictive maintenance for heavy equipment.
+MIN-003,Husab Mine,Namibia,Mining,-22.9500,14.8300,87,0.24,0.20,0.22,0.18,48,0.82,Implement advanced grade control and autonomous transport fleet integration.
+MIN-004,Skorpion Zinc Mine,Namibia,Mining,-28.5333,16.2333,79,0.35,0.32,0.40,0.32,62,0.90,Deploy tailings storage upgrade and renewable energy integration.
+MIN-005,Sishen Mine,South Africa,Mining,-27.6700,23.0100,84,0.30,0.25,0.25,0.22,58,0.88,Implement autonomous rail haulage and AI-powered stockpile management.
+MIN-006,Platinum Belt Complex,South Africa,Mining,-25.5000,27.3000,80,0.35,0.30,0.32,0.28,65,0.92,Deploy renewable energy microgrids and water recycling systems.

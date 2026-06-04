@@ -1,0 +1,7 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_index,risk_index,ndvi,vegetation_health,crop_stress,soil_moisture,drought_exposure,agricultural_productivity,ai_recommendation
+AGR-001,Lower Shire Irrigation Scheme,Botswana,Agriculture,-22.5000,28.0000,78,0.35,0.68,72,0.32,55,0.65,75,Implement precision agriculture with satellite NDVI monitoring and drip irrigation optimization.
+AGR-002,Ghanzi Commercial Farm,Botswana,Agriculture,-22.7000,21.5000,72,0.45,0.55,65,0.42,48,0.72,68,Deploy drought-resistant crop varieties and AI-driven yield forecasting.
+AGR-003,Oshakati Agricultural Zone,Namibia,Agriculture,-17.8000,15.7000,75,0.40,0.62,68,0.38,52,0.68,72,Implement solar-powered irrigation and climate-smart agriculture training.
+AGR-004,Kunene Livestock Zone,Namibia,Agriculture,-17.0000,14.0000,70,0.48,0.58,62,0.45,58,0.75,65,Deploy early warning systems and rotational grazing management.
+AGR-005,Free State Precision Farm,South Africa,Agriculture,-28.5000,27.0000,82,0.28,0.70,78,0.28,62,0.55,82,Implement AI-driven precision agriculture at scale with weather-based harvest optimization.
+AGR-006,Western Cape Export Cluster,South Africa,Agriculture,-33.5000,19.5000,85,0.22,0.65,82,0.25,58,0.48,88,Deploy climate-smart export protocols and cold chain optimization.

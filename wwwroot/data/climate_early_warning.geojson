@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "name": "Climate Early Warning Centre",
+  "description": "Predictive climate monitoring alerts for Botswana, Namibia, and South Africa - Powered by GeoAI Analytics",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ew-001",
+      "properties": {
+        "name": "Botswana Drought Escalation Alert",
+        "country": "Botswana",
+        "alert_type": "Drought Escalation",
+        "severity": "High",
+        "probability": "85%",
+        "expected_impact": "Water supply reduction 35%, Agricultural yield decline 25%, Livestock stress increase 40%",
+        "recommended_response": "Deploy smart water management, activate drought contingency plans, implement crop diversification",
+        "timeline": "Next 30-60 days",
+        "ai_confidence": "92%",
+        "satellite_data_source": "Sentinel-2,MODIS",
+        "alert_id": "DROUGHT-BWA-2024-Q3-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[21.0, -21.0], [26.0, -21.0], [26.0, -24.0], [21.0, -24.0], [21.0, -21.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ew-002",
+      "properties": {
+        "name": "Namibia Wildfire Threat Alert",
+        "country": "Namibia",
+        "alert_type": "Wildfire Threat",
+        "severity": "Medium",
+        "probability": "72%",
+        "expected_impact": "Vegetation loss 15%, Carbon emissions spike, Tourism impact in Damaraland",
+        "recommended_response": "Activate fire detection network, implement controlled burns, deploy rapid response teams",
+        "timeline": "Next 14-30 days",
+        "ai_confidence": "88%",
+        "satellite_data_source": "VIIRS,MODIS Fire",
+        "alert_id": "WILDFIRE-NAM-2024-Q3-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[14.0, -18.0], [18.0, -18.0], [18.0, -22.0], [14.0, -22.0], [14.0, -18.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ew-003",
+      "properties": {
+        "name": "South Africa Extreme Heat Alert",
+        "country": "South Africa",
+        "alert_type": "Extreme Heat",
+        "severity": "High",
+        "probability": "90%",
+        "expected_impact": "Worker safety risk increase, Energy demand spike 20%, Crop stress in Free State",
+        "recommended_response": "Implement heat stress protocols, activate cooling centres, deploy agricultural early warning",
+        "timeline": "Next 7-14 days",
+        "ai_confidence": "95%",
+        "satellite_data_source": "Landsat-8,TIRS,MODIS LST",
+        "alert_id": "HEAT-ZAF-2024-Q3-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[27.0, -25.0], [30.0, -25.0], [30.0, -29.0], [27.0, -29.0], [27.0, -25.0]]]
+      }
+    }
+  ]
+}
