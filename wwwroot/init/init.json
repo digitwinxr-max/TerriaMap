@@ -7,7 +7,7 @@
   },
   "catalog": [
     {
-      "id": "digtwin-platform",
+      "id": "digtwinxr-platform",
       "type": "group",
       "name": "DigiTwinXR Spatial Intelligence Operating System (SIOS)",
       "description": "DeepTech platform combining Digital Twins, GeoAI, Earth Observation, Infrastructure Intelligence, Climate Intelligence, and Climate Finance analytics. Complete decision-making lifecycle: Observe \u2192 Analyze \u2192 Prioritize \u2192 Invest \u2192 Monitor.",
