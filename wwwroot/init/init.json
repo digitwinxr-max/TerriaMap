@@ -7,9 +7,9 @@
   },
   "catalog": [
     {
-      "id": "dig twin-platform",
+      "id": "digtwin-platform",
       "type": "group",
-      "name": "DigiTwin XR Spatial Intelligence Operating System (SIOS)",
+      "name": "DigiTwinXR Spatial Intelligence Operating System (SIOS)",
       "description": "DeepTech platform combining Digital Twins, GeoAI, Earth Observation, Infrastructure Intelligence, Climate Intelligence, and Climate Finance analytics. Complete decision-making lifecycle: Observe \u2192 Analyze \u2192 Prioritize \u2192 Invest \u2192 Monitor.",
       "members": [
         {
@@ -381,7 +381,7 @@
           "id": "frost-sullivan",
           "type": "group",
           "name": "Frost & Sullivan Opportunity Landscape",
-          "description": "Strategic market opportunities with investor view - Market size, growth, strategic importance, and DigiTwin XR fit score",
+          "description": "Strategic market opportunities with investor view - Market size, growth, strategic importance, and DigiTwinXR fit score",
           "members": [
             {
               "id": "fs-opportunities",

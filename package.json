@@ -12,9 +12,9 @@
       "**/husky"
     ]
   },
-  "name": "dig twin-xr",
+  "name": "digtwin-xr",
   "version": "0.4.6",
-  "description": "DigiTwin XR Spatial Intelligence Operating System - Digital Twins + GeoAI + Infrastructure Intelligence for Southern Africa",
+  "description": "DigiTwinXR Spatial Intelligence Operating System - Digital Twins + GeoAI + Infrastructure Intelligence for Southern Africa",
   "license": "Apache-2.0",
   "engines": {
     "node": ">= 20.0.0"

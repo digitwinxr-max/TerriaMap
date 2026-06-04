@@ -8,7 +8,7 @@ body {
 
 :global {
   /* ========================================
-     DigiTwin XR Branding Customization
+     DigiTwinXR Branding Customization
      Hide Terria/Cesium branding elements
      ======================================== */
   
@@ -40,7 +40,7 @@ body {
   
   /* Hide Terms of Use and Credits links */
   .tjs-branding__link,
-  [class*="branding"] a:not([href*="dig twin"]),
+  [class*="branding"] a:not([href*="digtwin"]),
   .tjs-footer__link {
     display: none !important;
   }
@@ -61,9 +61,9 @@ body {
   }
   
   /* ========================================
-     DigiTwin XR Attribution
+     DigiTwinXR Attribution
      ======================================== */
-  .dig twin-attribution {
+  .digtwin-attribution {
     position: fixed;
     bottom: 8px;
     left: 8px;
@@ -80,25 +80,25 @@ body {
     max-width: 280px;
   }
   
-  .dig twin-attribution__title {
+  .digtwin-attribution__title {
     font-weight: 600;
     font-size: 12px;
     color: #fff;
     margin-bottom: 2px;
   }
   
-  .dig twin-attribution__subtitle {
+  .digtwin-attribution__subtitle {
     font-weight: 400;
     font-size: 10px;
     color: rgba(255, 255, 255, 0.7);
   }
   
-  .dig twin-attribution a {
+  .digtwin-attribution a {
     color: #4da6ff;
     text-decoration: none;
   }
   
-  .dig twin-attribution a:hover {
+  .digtwin-attribution a:hover {
     text-decoration: underline;
   }
   @media print {
