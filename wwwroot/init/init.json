@@ -466,6 +466,166 @@
       ]
     }
   ],
+  "stories": [
+    {
+      "id": "climate-risk-detection",
+      "title": "Climate Risk Detection",
+      "description": "Step 1: Identify vulnerable regions",
+      "catalog": [
+        {
+          "id": "digtwinxr-platform",
+          "type": "group",
+          "members": [
+            {
+              "id": "climate-risk-layer",
+              "type": "geojson",
+              "name": "Vulnerable Regions",
+              "url": "data/climate_risk_zones.geojson",
+              "isShown": true
+            }
+          ]
+        }
+      ],
+      "camera": {
+        "north": -18,
+        "east": 32,
+        "south": -35,
+        "west": 11
+      },
+      "text": {
+        "title": "Climate Risk Detection",
+        "content": "Identify vulnerable regions using Earth Observation and GeoAI intelligence."
+      }
+    },
+    {
+      "id": "risk-assessment",
+      "title": "Risk Assessment",
+      "description": "Step 2: Analyze exposure and vulnerability",
+      "catalog": [
+        {
+          "id": "digtwinxr-platform",
+          "type": "group",
+          "members": [
+            {
+              "id": "infra-exposure",
+              "type": "geojson",
+              "name": "Infrastructure Exposure Analysis",
+              "url": "data/infrastructure_exposure.geojson",
+              "isShown": true
+            }
+          ]
+        }
+      ],
+      "camera": {
+        "north": -20,
+        "east": 30,
+        "south": -33,
+        "west": 14
+      },
+      "text": {
+        "title": "Risk Assessment",
+        "content": "Analyze climate exposure, infrastructure vulnerability, and socioeconomic impact."
+      }
+    },
+    {
+      "id": "ai-recommendations",
+      "title": "AI Recommendations",
+      "description": "Step 3: Generate intervention options",
+      "catalog": [
+        {
+          "id": "digtwinxr-platform",
+          "type": "group",
+          "members": [
+            {
+              "id": "ai-reco",
+              "type": "csv",
+              "name": "AI Investment Recommendations",
+              "url": "data/ai_recommendations.csv",
+              "idColumn": "recommendation_id",
+              "isShown": true
+            }
+          ]
+        }
+      ],
+      "camera": {
+        "north": -22,
+        "east": 28,
+        "south": -34,
+        "west": 15
+      },
+      "text": {
+        "title": "AI Recommendations",
+        "content": "Generate intervention options and adaptation strategies."
+      }
+    },
+    {
+      "id": "investment-prioritization",
+      "title": "Investment Prioritization",
+      "description": "Step 4: Rank projects by impact",
+      "catalog": [
+        {
+          "id": "frost-sullivan",
+          "type": "group",
+          "members": [
+            {
+              "id": "fs-opportunities",
+              "type": "geojson",
+              "name": "Market Opportunity Map",
+              "url": "data/frost_sullivan_opportunity_map.geojson",
+              "style": {
+                "fillColor": "#9b59b6",
+                "fillOpacity": 0.3,
+                "strokeColor": "#8e44ad",
+                "strokeWidth": 3
+              },
+              "isShown": true
+            }
+          ]
+        }
+      ],
+      "camera": {
+        "north": -15,
+        "east": 35,
+        "south": -38,
+        "west": 10
+      },
+      "text": {
+        "title": "Investment Prioritization",
+        "content": "Rank projects based on impact, feasibility, and funding readiness."
+      }
+    },
+    {
+      "id": "climate-finance-enablement",
+      "title": "Climate Finance Enablement",
+      "description": "Step 5: Connect to funding sources",
+      "catalog": [
+        {
+          "id": "digtwinxr-platform",
+          "type": "group",
+          "members": [
+            {
+              "id": "carbon-opportunities",
+              "type": "csv",
+              "name": "Carbon Finance Opportunities",
+              "url": "data/carbon_finance.csv",
+              "idColumn": "asset_id",
+              "isShown": true
+            }
+          ]
+        }
+      ],
+      "camera": {
+        "north": -17,
+        "east": 32,
+        "south": -35,
+        "west": 11
+      },
+      "text": {
+        "title": "Climate Finance Enablement",
+        "content": "Connect opportunities to grants, blended finance, and carbon markets."
+      }
+    }
+  ],
   "viewerMode": "3dSmooth",
   "baseMaps": {
     "defaultBaseMapId": "basemap-openstreetmap",
