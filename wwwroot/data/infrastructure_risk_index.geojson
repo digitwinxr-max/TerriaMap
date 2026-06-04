@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "name": "Southern Africa Infrastructure Risk Index",
+  "description": "AI-composite Infrastructure Risk Index combining flood, drought, heat, wildfire, criticality and health scores",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iri-001",
+      "properties": {
+        "name": "Northern Botswana Critical Risk Zone",
+        "risk_category": "Critical Risk",
+        "composite_risk_score": 82,
+        "dominant_risk_driver": "Drought",
+        "flood_contribution": 15,
+        "drought_contribution": 45,
+        "heat_contribution": 25,
+        "wildfire_contribution": 15,
+        "infrastructure_criticality": 88,
+        "asset_health_avg": 68,
+        "affected_infrastructure": "Morupule Power,Dams,Irrigation schemes",
+        "recommended_action": "Water Security Upgrade - Deploy AI-driven smart water management and climate-adaptive infrastructure"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.5, -20.5], [26.5, -20.5], [26.5, -22.5], [22.5, -22.5], [22.5, -20.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iri-002",
+      "properties": {
+        "name": "Zambezi Corridor High Risk Zone",
+        "risk_category": "High Risk",
+        "composite_risk_score": 68,
+        "dominant_risk_driver": "Flood",
+        "flood_contribution": 40,
+        "drought_contribution": 20,
+        "heat_contribution": 25,
+        "wildfire_contribution": 15,
+        "infrastructure_criticality": 92,
+        "asset_health_avg": 75,
+        "affected_infrastructure": "Kazungula Bridge,Road corridors,Power transmission",
+        "recommended_action": "Flood-Resilient Infrastructure - Implement early warning and climate-adaptive bridge design"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.5, -17.5], [25.5, -17.5], [25.5, -18.5], [22.5, -18.5], [22.5, -17.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iri-003",
+      "properties": {
+        "name": "Highveld Industrial Zone",
+        "risk_category": "Medium Risk",
+        "composite_risk_score": 52,
+        "dominant_risk_driver": "Heat",
+        "flood_contribution": 20,
+        "drought_contribution": 25,
+        "heat_contribution": 35,
+        "wildfire_contribution": 20,
+        "infrastructure_criticality": 95,
+        "asset_health_avg": 80,
+        "affected_infrastructure": "Power stations,Mining operations,Industrial facilities",
+        "recommended_action": "Industrial Heat Management - Deploy cooling systems and worker safety protocols"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.5, -25.5], [29.5, -25.5], [29.5, -27.0], [26.5, -27.0], [26.5, -25.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iri-004",
+      "properties": {
+        "name": "Namib Coastal Zone",
+        "risk_category": "Low Risk",
+        "composite_risk_score": 28,
+        "dominant_risk_driver": "Heat",
+        "flood_contribution": 5,
+        "drought_contribution": 35,
+        "heat_contribution": 45,
+        "wildfire_contribution": 15,
+        "infrastructure_criticality": 78,
+        "asset_health_avg": 88,
+        "affected_infrastructure": "Walvis Bay Port,Wind farms,Desalination plants",
+        "recommended_action": "Continue monitoring - Maintain current climate adaptation measures"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[13.5, -22.5], [15.5, -22.5], [15.5, -24.5], [13.5, -24.5], [13.5, -22.5]]]
+      }
+    }
+  ]
+}

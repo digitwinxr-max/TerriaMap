@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "name": "Infrastructure Climate Exposure",
+  "description": "Infrastructure assets affected by climate hazards including flood, drought, heat, and fire risks",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ice-001",
+      "properties": {
+        "name": "Zambezi Corridor Exposure",
+        "infrastructure_affected": 8,
+        "primary_exposure_type": "flood",
+        "exposure_score": 85,
+        "critical_assets": "Kazungula Bridge,Road corridors,Power lines",
+        "economic_impact_USD": 45000000,
+        "recommended_actions": "Implement flood-resilient design and climate adaptation measures"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.5, -17.5], [25.5, -17.5], [25.5, -18.5], [22.5, -18.5], [22.5, -17.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ice-002",
+      "properties": {
+        "name": "Central Botswana Exposure",
+        "infrastructure_affected": 12,
+        "primary_exposure_type": "drought_heat",
+        "exposure_score": 72,
+        "critical_assets": "Morupule Power,Dams,Irrigation",
+        "economic_impact_USD": 85000000,
+        "recommended_actions": "Deploy water efficiency and renewable energy transition"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[23.5, -22.0], [26.5, -22.0], [26.5, -25.0], [23.5, -25.0], [23.5, -22.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ice-003",
+      "properties": {
+        "name": "Gauteng-Waterberg Exposure",
+        "infrastructure_affected": 15,
+        "primary_exposure_type": "fire_heat",
+        "exposure_score": 68,
+        "critical_assets": "Power stations,Mines,Industries",
+        "economic_impact_USD": 120000000,
+        "recommended_actions": "Implement fire prevention and industrial climate adaptation"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.0, -25.0], [28.5, -25.0], [28.5, -27.0], [26.0, -27.0], [26.0, -25.0]]]
+      }
+    }
+  ]
+}

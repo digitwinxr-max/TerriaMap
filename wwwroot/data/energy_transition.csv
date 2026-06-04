@@ -1,0 +1,7 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_index,risk_index,grid_resilience,renewable_penetration,emissions_reduction,energy_transition_score,ai_recommendation
+ENE-001,Morupule B Power Station,Botswana,Energy,-22.6500,26.8300,72,0.45,58,35,25,58,Accelerate hybrid solar-battery integration for 40% renewable penetration.
+ENE-002,Phakalane Solar Park,Botswana,Energy,-24.5500,25.9500,82,0.28,85,92,90,92,Deploy battery storage expansion and AI-driven grid optimization.
+ENE-003,Green Hydrogen Project,Namibia,Energy,-22.8500,17.0800,65,0.55,48,25,15,65,Scale electrolyzer to 2GW and establish SADC export corridor.
+ENE-004,Walvis Bay Wind Farm,Namibia,Energy,-22.9500,14.4500,80,0.30,82,88,85,88,Expand capacity with storage integration and forecasting systems.
+ENE-005,Koeberg Nuclear Station,South Africa,Energy,-33.6825,18.4287,78,0.38,80,15,30,80,Extend license to 2040 with safety monitoring upgrades.
+ENE-006,Cohen Renewable Cluster,South Africa,Energy,-25.5000,28.2000,85,0.25,88,78,75,90,Deploy AI grid balancing with 20MW solar and battery storage.

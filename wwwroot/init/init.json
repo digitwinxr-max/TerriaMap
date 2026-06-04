@@ -1,0 +1,474 @@
+{
+  "homeCamera": {
+    "north": -17,
+    "east": 32,
+    "south": -35,
+    "west": 11
+  },
+  "catalog": [
+    {
+      "id": "dig twin-platform",
+      "type": "group",
+      "name": "DigiTwin XR Spatial Intelligence Operating System (SIOS)",
+      "description": "DeepTech platform combining Digital Twins, GeoAI, Earth Observation, Infrastructure Intelligence, Climate Intelligence, and Climate Finance analytics. Complete decision-making lifecycle: Observe \u2192 Analyze \u2192 Prioritize \u2192 Invest \u2192 Monitor.",
+      "members": [
+        {
+          "id": "executive-command",
+          "type": "group",
+          "name": "EXECUTIVE COMMAND CENTRE",
+          "description": "Strategic Decision Cockpit - Investment pipeline: $148M, Climate finance: $465M, Projects investor ready: 3, Complete lifecycle: Observe/Analyze/Prioritize/Invest/Monitor",
+          "members": [
+            {
+              "id": "exec-kpis",
+              "type": "csv",
+              "name": "Strategic KPI Dashboard",
+              "url": "data/executive_command_centre.csv",
+              "idColumn": "module_name"
+            }
+          ]
+        },
+        {
+          "id": "bif-demonstration",
+          "type": "group",
+          "name": "BIF DEMONSTRATION FLOW",
+          "description": "7-step decision-making workflow: Identify vulnerability \u2192 Assess climate \u2192 Generate recommendations \u2192 Prioritize \u2192 Evaluate funding \u2192 Launch project \u2192 Monitor outcomes",
+          "members": [
+            {
+              "id": "bif-flow",
+              "type": "csv",
+              "name": "Judge Demonstration Workflow",
+              "url": "data/bif_judge_demonstration_flow.csv",
+              "idColumn": "step_id"
+            },
+            {
+              "id": "bif-scenarios",
+              "type": "csv",
+              "name": "BIF Demo Scenarios",
+              "url": "data/bif_demonstration_scenarios.csv",
+              "idColumn": "scenario_id"
+            }
+          ]
+        },
+        {
+          "id": "strategic-infrastructure",
+          "type": "group",
+          "name": "Strategic Infrastructure Intelligence",
+          "description": "Digital Twin monitoring with predictive maintenance and investment pipeline - Asset health, risk, failure probability, and project prioritization",
+          "members": [
+            {
+              "id": "strategic-infra",
+              "type": "csv",
+              "name": "Infrastructure Dashboard",
+              "url": "data/strategic_infrastructure.csv",
+              "idColumn": "asset_id"
+            },
+            {
+              "id": "predictive-maint",
+              "type": "csv",
+              "name": "Predictive Maintenance Dashboard",
+              "url": "data/predictive_maintenance.csv",
+              "idColumn": "asset_id"
+            },
+            {
+              "id": "investment-pipeline",
+              "type": "csv",
+              "name": "Strategic Investment Pipeline",
+              "url": "data/strategic_investment_pipeline.csv",
+              "idColumn": "project_id"
+            },
+            {
+              "id": "digital-twin-scores",
+              "type": "csv",
+              "name": "Digital Twin Scoring Model",
+              "url": "data/digital_twin_scores.csv",
+              "idColumn": "asset_id"
+            }
+          ]
+        },
+        {
+          "id": "climate-intelligence",
+          "type": "group",
+          "name": "Climate & Environmental Intelligence",
+          "description": "Earth observation-based climate risk monitoring with AI-driven early warning capabilities",
+          "members": [
+            {
+              "id": "climate-early-warning",
+              "type": "geojson",
+              "name": "Climate Early Warning Centre",
+              "url": "data/climate_early_warning.geojson",
+              "style": {
+                "fillColor": "#e74c3c",
+                "fillOpacity": 0.5,
+                "strokeColor": "#c0392b",
+                "strokeWidth": 3
+              }
+            },
+            {
+              "id": "flood-risk",
+              "type": "geojson",
+              "name": "Flood Risk Zones",
+              "url": "data/flood_risk.geojson",
+              "style": {
+                "fillColor": "#3498db",
+                "fillOpacity": 0.4,
+                "strokeColor": "#2980b9",
+                "strokeWidth": 2
+              }
+            },
+            {
+              "id": "drought-risk",
+              "type": "geojson",
+              "name": "Drought Risk Zones",
+              "url": "data/drought_risk.geojson",
+              "style": {
+                "fillColor": "#e74c3c",
+                "fillOpacity": 0.4,
+                "strokeColor": "#c0392b",
+                "strokeWidth": 2
+              }
+            },
+            {
+              "id": "heat-stress",
+              "type": "geojson",
+              "name": "Heat Stress Zones",
+              "url": "data/heat_stress.geojson",
+              "style": {
+                "fillColor": "#f39c12",
+                "fillOpacity": 0.4,
+                "strokeColor": "#d68910",
+                "strokeWidth": 2
+              }
+            },
+            {
+              "id": "wildfire-risk",
+              "type": "geojson",
+              "name": "Wildfire Risk Zones",
+              "url": "data/wildfire_risk.geojson",
+              "style": {
+                "fillColor": "#e67e22",
+                "fillOpacity": 0.4,
+                "strokeColor": "#d35400",
+                "strokeWidth": 2
+              }
+            },
+            {
+              "id": "carbon-stocks",
+              "type": "geojson",
+              "name": "Carbon Stock Assessment",
+              "url": "data/carbon_stocks.geojson",
+              "style": {
+                "fillColor": "#27ae60",
+                "fillOpacity": 0.4,
+                "strokeColor": "#229954",
+                "strokeWidth": 2
+              }
+            },
+            {
+              "id": "land-change",
+              "type": "geojson",
+              "name": "Land Use Change",
+              "url": "data/land_change.geojson",
+              "style": {
+                "fillColor": "#9b59b6",
+                "fillOpacity": 0.4,
+                "strokeColor": "#8e44ad",
+                "strokeWidth": 2
+              }
+            },
+            {
+              "id": "climate-vuln-index",
+              "type": "geojson",
+              "name": "Climate Vulnerability Index",
+              "url": "data/climate_vulnerability_index.geojson",
+              "style": {
+                "fillColor": "#e74c3c",
+                "fillOpacity": 0.5,
+                "strokeColor": "#c0392b",
+                "strokeWidth": 3
+              }
+            },
+            {
+              "id": "infra-exposure",
+              "type": "geojson",
+              "name": "Infrastructure Climate Exposure",
+              "url": "data/infrastructure_climate_exposure.geojson",
+              "style": {
+                "fillColor": "#f39c12",
+                "fillOpacity": 0.5,
+                "strokeColor": "#d68910",
+                "strokeWidth": 3
+              }
+            }
+          ]
+        },
+        {
+          "id": "earth-observation",
+          "type": "group",
+          "name": "Earth Observation Intelligence",
+          "description": "Satellite-based analytics - Powered by Earth Observation and GeoAI Analytics",
+          "members": [
+            {
+              "id": "eo-intelligence",
+              "type": "geojson",
+              "name": "Earth Observation Dashboard",
+              "url": "data/earth_observation_intelligence.geojson",
+              "style": {
+                "fillColor": "#2ecc71",
+                "fillOpacity": 0.4,
+                "strokeColor": "#27ae60",
+                "strokeWidth": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "risk-index",
+          "type": "group",
+          "name": "AI Infrastructure Risk Intelligence",
+          "description": "AI-composite Infrastructure Risk Index - Flood + Drought + Heat + Wildfire + Criticality + Health",
+          "members": [
+            {
+              "id": "infra-risk-index",
+              "type": "geojson",
+              "name": "Southern Africa Infrastructure Risk Index",
+              "url": "data/infrastructure_risk_index.geojson",
+              "style": {
+                "fillColor": "#e74c3c",
+                "fillOpacity": 0.5,
+                "strokeColor": "#c0392b",
+                "strokeWidth": 3
+              }
+            }
+          ]
+        },
+        {
+          "id": "agricultural-resilience",
+          "type": "group",
+          "name": "Agricultural Resilience Intelligence",
+          "description": "Climate-smart agriculture with NDVI, vegetation health, crop stress, and soil moisture monitoring",
+          "members": [
+            {
+              "id": "agri-dash",
+              "type": "csv",
+              "name": "Agricultural Dashboard",
+              "url": "data/agricultural_resilience.csv",
+              "idColumn": "asset_id"
+            }
+          ]
+        },
+        {
+          "id": "water-intelligence",
+          "type": "group",
+          "name": "Water Intelligence",
+          "description": "Water security planning with water security index, drought vulnerability, and demand forecasting",
+          "members": [
+            {
+              "id": "water-dash",
+              "type": "csv",
+              "name": "Water Infrastructure Dashboard",
+              "url": "data/water_intelligence.csv",
+              "idColumn": "asset_id"
+            }
+          ]
+        },
+        {
+          "id": "energy-transition",
+          "type": "group",
+          "name": "Energy Transition Intelligence",
+          "description": "Energy resilience and decarbonization with grid resilience, renewable penetration, and emissions tracking",
+          "members": [
+            {
+              "id": "energy-dash",
+              "type": "csv",
+              "name": "Energy Transition Dashboard",
+              "url": "data/energy_transition.csv",
+              "idColumn": "asset_id"
+            }
+          ]
+        },
+        {
+          "id": "mining-intelligence",
+          "type": "group",
+          "name": "Mining Intelligence",
+          "description": "Operational and ESG intelligence with operational risk, tailings risk, ESG monitoring, and predictive maintenance",
+          "members": [
+            {
+              "id": "mining-dash",
+              "type": "csv",
+              "name": "Mining Operations Dashboard",
+              "url": "data/mining_intelligence.csv",
+              "idColumn": "asset_id"
+            }
+          ]
+        },
+        {
+          "id": "logistics-intelligence",
+          "type": "group",
+          "name": "Logistics & Trade Intelligence",
+          "description": "Regional trade resilience with trade efficiency, corridor utilization, and regional trade connectivity",
+          "members": [
+            {
+              "id": "logistics-dash",
+              "type": "csv",
+              "name": "Logistics Dashboard",
+              "url": "data/logistics_trade.csv",
+              "idColumn": "asset_id"
+            }
+          ]
+        },
+        {
+          "id": "ict-intelligence",
+          "type": "group",
+          "name": "ICT & Digital Infrastructure",
+          "description": "Digital economy readiness with digital readiness index, connectivity risk, and AI capacity assessment",
+          "members": [
+            {
+              "id": "ict-dash",
+              "type": "csv",
+              "name": "Digital Infrastructure Dashboard",
+              "url": "data/ict_digital.csv",
+              "idColumn": "asset_id"
+            }
+          ]
+        },
+        {
+          "id": "climate-finance",
+          "type": "group",
+          "name": "Climate Finance & ESG Intelligence",
+          "description": "Climate finance opportunities - ESG scoring, carbon credits, green investment pipeline, and parametric insurance",
+          "members": [
+            {
+              "id": "cf-dash",
+              "type": "csv",
+              "name": "Climate Finance Investment Dashboard",
+              "url": "data/climate_finance_upgrade.csv",
+              "idColumn": "asset_id"
+            },
+            {
+              "id": "carbon-credits",
+              "type": "geojson",
+              "name": "Carbon Credit Opportunities",
+              "url": "data/carbon_credit_opportunities.geojson",
+              "style": {
+                "fillColor": "#27ae60",
+                "fillOpacity": 0.5,
+                "strokeColor": "#229954",
+                "strokeWidth": 2
+              }
+            },
+            {
+              "id": "parametric-insurance",
+              "type": "geojson",
+              "name": "Parametric Insurance Potential",
+              "url": "data/parametric_insurance.geojson",
+              "style": {
+                "fillColor": "#3498db",
+                "fillOpacity": 0.5,
+                "strokeColor": "#2980b9",
+                "strokeWidth": 2
+              }
+            },
+            {
+              "id": "cf-original",
+              "type": "csv",
+              "name": "Climate Finance Projects",
+              "url": "data/climate_finance.csv",
+              "idColumn": "asset_id"
+            }
+          ]
+        },
+        {
+          "id": "frost-sullivan",
+          "type": "group",
+          "name": "Frost & Sullivan Opportunity Landscape",
+          "description": "Strategic market opportunities with investor view - Market size, growth, strategic importance, and DigiTwin XR fit score",
+          "members": [
+            {
+              "id": "fs-opportunities",
+              "type": "geojson",
+              "name": "Market Opportunity Map",
+              "url": "data/frost_sullivan_opportunity_map.geojson",
+              "style": {
+                "fillColor": "#9b59b6",
+                "fillOpacity": 0.3,
+                "strokeColor": "#8e44ad",
+                "strokeWidth": 3
+              }
+            }
+          ]
+        },
+        {
+          "id": "sadc-expansion",
+          "type": "group",
+          "name": "SADC Expansion Simulator",
+          "description": "Scalability assessment with composite scores and rankings for expansion to 7 additional SADC countries",
+          "members": [
+            {
+              "id": "sadc-exp",
+              "type": "csv",
+              "name": "Expansion Readiness Assessment",
+              "url": "data/sadc_expansion_simulator.csv",
+              "idColumn": "country"
+            }
+          ]
+        },
+        {
+          "id": "regional-expansion",
+          "type": "group",
+          "name": "Regional Expansion Readiness",
+          "description": "SADC market expansion readiness with expansion score, market readiness, and replicability assessment",
+          "members": [
+            {
+              "id": "regional-exp",
+              "type": "csv",
+              "name": "Regional Expansion Dashboard",
+              "url": "data/regional_expansion_optimized.csv",
+              "idColumn": "asset_id"
+            },
+            {
+              "id": "botswana-exp",
+              "type": "csv",
+              "name": "Botswana Expansion Readiness",
+              "url": "data/botswana_expansion.csv",
+              "idColumn": "asset_id"
+            },
+            {
+              "id": "namibia-exp",
+              "type": "csv",
+              "name": "Namibia Expansion Readiness",
+              "url": "data/namibia_expansion.csv",
+              "idColumn": "asset_id"
+            },
+            {
+              "id": "southafrica-exp",
+              "type": "csv",
+              "name": "South Africa Expansion Readiness",
+              "url": "data/southafrica_expansion.csv",
+              "idColumn": "asset_id"
+            }
+          ]
+        },
+        {
+          "id": "ai-recommendations",
+          "type": "group",
+          "name": "AI Strategic Recommendations",
+          "description": "GeoAI-powered recommendations with structured outputs - Risk assessment, confidence, cost/benefit, and timeline",
+          "members": [
+            {
+              "id": "ai-reco",
+              "type": "csv",
+              "name": "AI Recommendations",
+              "url": "data/ai_recommendations.csv",
+              "idColumn": "recommendation_id"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "viewerMode": "3dSmooth",
+  "baseMaps": {
+    "defaultBaseMapId": "basemap-openstreetmap",
+    "previewBaseMapId": "basemap-natural-earth-II"
+  }
+}

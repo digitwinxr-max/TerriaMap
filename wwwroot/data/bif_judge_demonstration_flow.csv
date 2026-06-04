@@ -1,0 +1,10 @@
+step_id,step_name,description,input_action,analysis_output,decision_point,next_steps
+STEP-001,Identify Infrastructure Vulnerability,Select infrastructure asset to assess climate exposure,Click on infrastructure asset on map,Asset Health Score, Risk Index, Climate Exposure,Continue to Climate Assessment
+STEP-002,Assess Climate Exposure,Analyze multi-hazard climate risk for selected asset,View Climate Vulnerability Index layer,Composite Risk Score, Dominant Hazards, Infrastructure Impact,Continue to GeoAI Analysis
+STEP-003,Generate GeoAI Recommendations,Receive AI-powered recommendations for risk mitigation,View AI Recommendations layer,Recommendation Category, Cost-Benefit Analysis, Implementation Timeline,Continue to Prioritization
+STEP-004,Prioritize Interventions,Rank recommendations by Project Priority Index,View Strategic Investment Pipeline,Priority Index, Funding Readiness, ESG Score,Continue to Funding Assessment
+STEP-005,Evaluate Funding Readiness,Assess project financing pathway and development finance alignment,View Funding Readiness Score,Financing Strategy, Potential Financiers, Instrument Type,Continue to Investment Decision
+STEP-006,Launch Investment Project,Select project for investment pipeline inclusion,Add project to pipeline,Project CAPEX, Implementation Roadmap, SDG Alignment,Continue to Monitoring
+STEP-007,Monitor Outcomes,Track project progress and impact metrics,View updated dashboard,KPI performance, Risk evolution, Impact metrics,Return to Step 001
+
+DEMONSTRATION_FLOW,Observe/Analyze/Prioritize/Invest/Monitor,Complete decision-making lifecycle for infrastructure investment,All modules engaged,End-to-end platform capability,Strategic decision support

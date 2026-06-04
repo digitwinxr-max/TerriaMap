@@ -1,0 +1,121 @@
+{
+  "type": "FeatureCollection",
+  "name": "Earth Observation Intelligence",
+  "description": "Satellite-based analytics - NDVI, Land Use Change, Carbon Monitoring, Flood, Drought, and Heat - Powered by Earth Observation and GeoAI Analytics",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "eo-001",
+      "properties": {
+        "name": "Southern Africa NDVI Composite",
+        "layer_type": "Vegetation Health",
+        "data_source": "Sentinel-2,MODIS",
+        "update_frequency": "10 days",
+        "current_value": "0.62",
+        "trend": "Declining - 8% from baseline",
+        "alerts": "3 vegetation stress zones detected",
+        "powered_by": "Earth Observation and GeoAI Analytics",
+        "analytical_capability": "Vegetation health monitoring, crop stress detection, drought impact assessment"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[11, -35], [32, -35], [32, -17], [11, -17], [11, -35]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eo-002",
+      "properties": {
+        "name": "Land Use Change Analysis",
+        "layer_type": "Land Change",
+        "data_source": "Landsat-8,Sentinel-2",
+        "update_frequency": "Annual",
+        "change_rate": "2.3% annual urban expansion",
+        "hotspots": "Gaborone,Johannesburg,Windhoek",
+        "deforestation_rate": "0.8% annually",
+        "powered_by": "Earth Observation and GeoAI Analytics",
+        "analytical_capability": "Urban expansion monitoring, deforestation tracking, environmental degradation assessment"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[11, -35], [32, -35], [32, -17], [11, -17], [11, -35]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eo-003",
+      "properties": {
+        "name": "Carbon Monitoring Dashboard",
+        "layer_type": "Carbon Stocks",
+        "data_source": "GEDI,Sentinel-2,ICESat-2",
+        "update_frequency": "Quarterly",
+        "total_carbon_stock_tC": "85000000",
+        "annual_sequestration_tC": "4200000",
+        "threats_identified": "15 high-risk degradation zones",
+        "powered_by": "Earth Observation and GeoAI Analytics",
+        "analytical_capability": "Carbon stock quantification, sequestration monitoring, REDD+ verification"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[11, -35], [32, -35], [32, -17], [11, -17], [11, -35]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eo-004",
+      "properties": {
+        "name": "Flood Monitoring System",
+        "layer_type": "Flood Extent",
+        "data_source": "Sentinel-1,RADARSAT-2",
+        "update_frequency": "12 days",
+        "active_flooding": "2 zones detected",
+        "historical_flood_zones": "18",
+        "population_at_risk": "125000",
+        "powered_by": "Earth Observation and GeoAI Analytics",
+        "analytical_capability": "Real-time flood detection, extent mapping, impact assessment"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[11, -35], [32, -35], [32, -17], [11, -17], [11, -35]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eo-005",
+      "properties": {
+        "name": "Drought Monitoring Index",
+        "layer_type": "Drought Severity",
+        "data_source": "SMAP,MODIS,GPM",
+        "update_frequency": "Monthly",
+        "current_spi": "-1.8 (Moderate Drought)",
+        "affected_area_km2": "280000",
+        "agricultural_impact": "High - 35% crop yield reduction risk",
+        "powered_by": "Earth Observation and GeoAI Analytics",
+        "analytical_capability": "Drought severity quantification, agricultural impact prediction, water resource assessment"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[11, -35], [32, -35], [32, -17], [11, -17], [11, -35]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eo-006",
+      "properties": {
+        "name": "Heat Stress Monitoring",
+        "layer_type": "Land Surface Temperature",
+        "data_source": "Landsat-8 TIRS,Sentinel-3 SLSTR",
+        "update_frequency": "Weekly",
+        "current_max_lST": "48°C",
+        "urban_heat_islands": "12 major zones identified",
+        "worker_safety_risk": "High in 8 industrial corridors",
+        "powered_by": "Earth Observation and GeoAI Analytics",
+        "analytical_capability": "Heat island identification, worker safety assessment, infrastructure heat exposure"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[11, -35], [32, -35], [32, -17], [11, -17], [11, -35]]]
+      }
+    }
+  ]
+}

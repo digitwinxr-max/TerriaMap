@@ -1,0 +1,9 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_index,risk_index,sadc_expansion_score,market_readiness,replicability,ai_recommendation
+BWA-REG-001,Kazungula Trade Hub,Botswana,Infrastructure,17.7886,25.2586,88,0.22,92,88,90,Prioritize Digital Twin monitoring for cross-border trade efficiency.
+BWA-REG-002,Sir Seretse Khama Airport,Botswana,Infrastructure,24.9619,25.9186,85,0.28,85,85,85,Implement AI-driven passenger flow and climate-resilient infrastructure.
+BWA-MIN-001,Jwaneng Diamond Mine,Botswana,Mining,24.4775,24.5969,88,0.25,88,90,92,Deploy autonomous operations and ESG monitoring.
+BWA-MIN-002,Orapa Mine,Botswana,Mining,21.5333,25.5167,82,0.30,85,85,88,Implement predictive maintenance and grade optimization.
+BWA-ENE-001,Morupule B Power,Botswana,Energy,22.6500,26.8300,72,0.45,78,75,80,Accelerate solar-battery hybrid for renewable transition.
+BWA-ENE-002,Phakalane Solar,Botswana,Energy,24.5500,25.9500,82,0.28,82,80,85,Expand battery storage and grid optimization.
+BWA-ICT-001,Gaborone Innovation Hub,Botswana,ICT,24.6500,25.9000,80,0.32,85,82,88,Deploy AI computing and green data center.
+BWA-ICT-002,Botswana Fibre Network,Botswana,ICT,22.0000,26.0000,78,0.35,82,78,85,Implement climate-resilient fiber routes.

@@ -1,0 +1,7 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_index,risk_index,climate_vulnerability,economic_criticality,investment_priority,sadc_scalability,ai_recommendation
+INF-001,Sir Seretse Khama International Airport,Botswana,Infrastructure,-24.9619,25.9186,85,0.28,0.45,88,5,Very High,Implement AI-driven passenger flow optimization and climate-resilient runway upgrades for SADC connectivity.
+INF-002,Kazungula Bridge,Botswana,Infrastructure,-17.7886,25.2586,92,0.15,0.50,90,4,Very High,Deploy smart border systems with satellite monitoring for cross-border trade efficiency.
+INF-003,Walvis Bay Port,Namibia,Infrastructure,-22.9500,14.5100,90,0.18,0.35,98,4,Very High,Expand container capacity with smart port automation for SADC landlocked state access.
+INF-004,Hosea Kutako International Airport,Namibia,Infrastructure,-22.4833,17.4700,88,0.20,0.40,85,5,High,Implement climate-resilient infrastructure and cargo digitization for regional hub status.
+INF-005,OR Tambo International Airport,South Africa,Infrastructure,-25.9153,28.2414,90,0.15,0.40,95,4,Very High,Deploy AI-powered operations for 35% capacity increase and climate adaptation.
+INF-006,Richards Bay Port,South Africa,Infrastructure,-28.7800,32.0400,88,0.20,0.45,92,5,Very High,Implement flood protection systems and smart port automation for eastern corridor dominance.

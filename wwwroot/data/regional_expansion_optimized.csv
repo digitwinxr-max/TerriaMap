@@ -1,0 +1,13 @@
+asset_id,asset_name,country,sector,latitude,longitude,health_index,risk_index,sadc_expansion_score,market_readiness,replicability,ai_recommendation
+BWA-INF-001,Kazungula Bridge,Botswana,Infrastructure,17.7886,25.2586,88,0.22,92,88,90,Implement Digital Twin monitoring for cross-border efficiency.
+BWA-MIN-001,Jwaneng Mine,Botswana,Mining,24.4775,24.5969,88,0.25,88,90,92,Deploy autonomous operations and ESG monitoring.
+BWA-ENE-001,Morupule B Power,Botswana,Energy,22.6500,26.8300,72,0.45,78,75,80,Accelerate solar-battery hybrid integration.
+BWA-ICT-001,Gaborone Innovation Hub,Botswana,ICT,24.6500,25.9000,80,0.32,85,82,88,Deploy AI computing and green data center.
+NAM-INF-001,Walvis Bay Port,Namibia,Infrastructure,22.9500,14.5100,90,0.18,95,92,95,Expand smart port automation for SADC access.
+NAM-MIN-001,Husab Mine,Namibia,Mining,22.9500,14.8300,87,0.24,90,92,90,Deploy advanced automation and autonomous transport.
+NAM-ENE-001,Green Hydrogen Project,Namibia,Energy,22.8500,17.0800,65,0.55,95,88,98,Scale electrolyzer and establish SADC export corridor.
+NAM-ICT-001,Namibia Internet Exchange,Namibia,ICT,22.5667,17.0833,82,0.28,88,85,88,Deploy submarine cable redundancy and IXP expansion.
+ZAF-INF-001,OR Tambo Airport,South Africa,Infrastructure,25.9153,28.2414,90,0.15,98,95,98,Deploy AI operations for 35% capacity increase.
+ZAF-MIN-001,Sishen Mine,South Africa,Mining,27.6700,23.0100,84,0.30,90,92,88,Implement autonomous rail and AI stockpile management.
+ZAF-ENE-001,Koeberg Nuclear Station,South Africa,Energy,33.6825,18.4287,78,0.38,85,88,82,Extend license with safety monitoring systems.
+ZAF-ICT-001,Teraco Isando Data Centre,South Africa,ICT,26.1000,28.2200,95,0.08,98,98,95,Deploy carbon-neutral AI infrastructure.

@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "name": "Heat Stress Zones",
+  "description": "Urban heat islands, worker safety zones, and infrastructure heat exposure assessment",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "heat-001",
+      "properties": {
+        "name": "Gaborone Urban Heat Island",
+        "risk_level": "high",
+        "severity_score": 72,
+        "affected_area_km2": 850,
+        "avg_high_temp_c": 38,
+        "urban_heat_factor": "concrete,dense_development",
+        "worker_safety_risk": "high",
+        "recommended_actions": "Implement green infrastructure, cool roofs, and heat stress protocols"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.80, -25.00], [26.00, -25.00], [26.00, -25.30], [25.80, -25.30], [25.80, -25.00]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "heat-002",
+      "properties": {
+        "name": "Central Kalahari Heat Zone",
+        "risk_level": "high",
+        "severity_score": 78,
+        "affected_area_km2": 150000,
+        "avg_high_temp_c": 42,
+        "urban_heat_factor": "semi_desert",
+        "worker_safety_risk": "critical",
+        "recommended_actions": "Implement heat stress monitoring and climate adaptation for remote operations"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[21.0, -22.0], [24.0, -22.0], [24.0, -25.0], [21.0, -25.0], [21.0, -22.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "heat-003",
+      "properties": {
+        "name": "Johannesburg-Pretoria Corridor",
+        "risk_level": "medium",
+        "severity_score": 65,
+        "affected_area_km2": 2800,
+        "avg_high_temp_c": 35,
+        "urban_heat_factor": "industrial,transport",
+        "worker_safety_risk": "moderate",
+        "recommended_actions": "Deploy urban greening and industrial heat management systems"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[27.5, -25.5], [28.5, -25.5], [28.5, -26.5], [27.5, -26.5], [27.5, -25.5]]]
+      }
+    }
+  ]
+}
