@@ -30,7 +30,7 @@
         {
           "id": "bif-demonstration",
           "type": "group",
-          "name": "BIF DEMONSTRATION FLOW",
+          "name": "SBIF DEMONSTRATION FLOW",
           "description": "7-step decision-making workflow: Identify vulnerability \u2192 Assess climate \u2192 Generate recommendations \u2192 Prioritize \u2192 Evaluate funding \u2192 Launch project \u2192 Monitor outcomes",
           "members": [
             {
@@ -43,7 +43,7 @@
             {
               "id": "bif-scenarios",
               "type": "csv",
-              "name": "BIF Demo Scenarios",
+              "name": "SBIF Demo Scenarios",
               "url": "data/bif_demonstration_scenarios.csv",
               "idColumn": "scenario_id"
             }
