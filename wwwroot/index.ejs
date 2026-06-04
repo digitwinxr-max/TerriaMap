@@ -100,10 +100,52 @@
   <body>
     <div id="svg-sprites" style="display: none"></div>
     <div id="ui"></div>
+    
+    <!-- DigiTwinXR Executive Intelligence Summary Panel -->
+    <div class="digtwinxr-metrics-panel" id="metricsPanel">
+      <div class="digtwinxr-metrics-header">
+        <span class="digtwinxr-metrics-title">Executive Intelligence Summary</span>
+        <button class="digtwinxr-metrics-toggle" onclick="toggleMetricsPanel()" title="Toggle metrics">×</button>
+      </div>
+      <div class="digtwinxr-metrics-grid">
+        <div class="digtwinxr-metric-card">
+          <div class="digtwinxr-metric-label">Climate Finance Pipeline</div>
+          <div class="digtwinxr-metric-value">$465M</div>
+        </div>
+        <div class="digtwinxr-metric-card">
+          <div class="digtwinxr-metric-label">Projects Ready</div>
+          <div class="digtwinxr-metric-value">23</div>
+        </div>
+        <div class="digtwinxr-metric-card">
+          <div class="digtwinxr-metric-label">Regions Monitored</div>
+          <div class="digtwinxr-metric-value">4</div>
+        </div>
+        <div class="digtwinxr-metric-card">
+          <div class="digtwinxr-metric-label">Investment Opportunities</div>
+          <div class="digtwinxr-metric-value">17</div>
+        </div>
+        <div class="digtwinxr-metric-card">
+          <div class="digtwinxr-metric-label">Data Sources</div>
+          <div class="digtwinxr-metric-value">12</div>
+        </div>
+        <div class="digtwinxr-metric-card digtwinxr-metric-status">
+          <div class="digtwinxr-metric-label">Status</div>
+          <div class="digtwinxr-metric-value digtwinxr-live-dot">● Live Demo</div>
+        </div>
+      </div>
+    </div>
+    
     <!-- DigiTwinXR Attribution Footer -->
     <div class="digtwinxr-attribution" style="display: block !important;">
       <div class="digtwinxr-attribution__title">DigiTwinXR SIOS</div>
       <div class="digtwinxr-attribution__subtitle">Spatial Intelligence Operating System</div>
     </div>
+    
+    <script>
+      function toggleMetricsPanel() {
+        var panel = document.getElementById('metricsPanel');
+        panel.classList.toggle('collapsed');
+      }
+    </script>
   </body>
 </html>
