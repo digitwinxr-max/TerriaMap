@@ -7,6 +7,100 @@ body {
 }
 
 :global {
+  /* ========================================
+     DigiTwin XR Branding Customization
+     Hide Terria/Cesium branding elements
+     ======================================== */
+  
+  /* Hide Terria logo in lower-left */
+  .tjs-branding__branding,
+  .terria-logo,
+  [class*="terria"][class*="logo"] {
+    display: none !important;
+  }
+  
+  /* Hide Cesium logos */
+  .cesium-credit-logoContainer,
+  .cesium-credit-logo,
+  .cesium-credit-text,
+  .cesium-viewer-bottom,
+  .cesium-viewer .cesium-widget-creditsContainer,
+  [class*="cesium"][class*="credit"],
+  [class*="cesium"][class*="logo"] {
+    display: none !important;
+  }
+  
+  /* Hide attribution footer links */
+  .tjs-attribution,
+  .tjs-branding__footer,
+  [class*="attribution"][class*="footer"],
+  [class*="credit"][class*="footer"] {
+    display: none !important;
+  }
+  
+  /* Hide Terms of Use and Credits links */
+  .tjs-branding__link,
+  [class*="branding"] a:not([href*="dig twin"]),
+  .tjs-footer__link {
+    display: none !important;
+  }
+  
+  /* Hide Cesium Ion attribution specifically */
+  .cesium-credit-inline,
+  .cesium-credit-logoInline,
+  .cesium-credit-expand-link {
+    display: none !important;
+  }
+  
+  /* 
+   * Alternative: Replace Cesium credits with DigiTwin attribution
+   * This positions our branding in the lower-left corner
+   */
+  .cesium-viewer-bottom {
+    display: none !important;
+  }
+  
+  /* ========================================
+     DigiTwin XR Attribution
+     ======================================== */
+  .dig twin-attribution {
+    position: fixed;
+    bottom: 8px;
+    left: 8px;
+    z-index: 9999;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.85);
+    background: linear-gradient(135deg, rgba(40, 45, 50, 0.9) 0%, rgba(30, 35, 40, 0.95) 100%);
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    line-height: 1.4;
+    max-width: 280px;
+  }
+  
+  .dig twin-attribution__title {
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 2px;
+  }
+  
+  .dig twin-attribution__subtitle {
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .dig twin-attribution a {
+    color: #4da6ff;
+    text-decoration: none;
+  }
+  
+  .dig twin-attribution a:hover {
+    text-decoration: underline;
+  }
   @media print {
     .nationalmap-print-disclaimer {
       color: #000;
