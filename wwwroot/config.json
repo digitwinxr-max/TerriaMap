@@ -41,11 +41,11 @@
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
-      "<a target=\"_blank\" href=\"https://digtwinxr.com\"><img src=\"images/digtwin_logo.svg\" height=\"52\" title=\"DigiTwinXR - Digital Twins + GeoAI + Infrastructure Intelligence for Southern Africa - Version: {{version}}\" /></a>",
+      "<a target=\"_blank\" href=\"https://digtwinxr.com\"><img src=\"images/digtwin_logo.svg\" height=\"52\" title=\"DigiTwinXR SIOS | Climate & Infrastructure Intelligence Platform\" /></a>",
       ""
     ],
     // Shown when things go wrong.
-    "supportEmail": "help@example.com",
+    "supportEmail": "digtwinxr@gmail.com",
     // You probably shouldn't change this.
     "proj4ServiceBaseUrl": "proj4def/",
     // Or this
@@ -187,8 +187,8 @@
       {
         "icon": "story",
         "itemName": "storymigration",
-        "markdownText": "## Share & Story Migration\n\n### Guide on updating share links, including stories\n\nIf you've received a warning telling you that a share link was based off an older version of TerriaJS, you'll want to do a few things to recreate them in the latest version of Terria!\n\n#### Creators\n\n1. Identify the share URL which causes a notification of share preservation effort when loading them into Terria. e.g. you may know where they are embedded, or come across them accidentally\n2. Open them in the newer (v8) based map application \n3. Check that everything is sharing as you expect, tweak the layers to fit if some are missing or not behaving correctly.\n4. Update the share link by clicking the Share/Print button and copy the new link\n5. If distribution of share link is known, update the url in your web page (if embedded), or send the new link to users \n\n#### Consumers\n1. Load the share URL\n2. If it doesn't quite look right, notify the provider so they can follow the above steps to recreate it in the latest version of Terria",
-        "title": "Share & Story migration"
+        "markdownText": "## Platform Walkthrough\n\n### Guide on updating share links and stories\n\n### Creators\n\n1. Identify share URLs that may need updating\n2. Open them in **DigiTwinXR SIOS**\n3. Verify layers are sharing correctly\n4. Update share links via Share/Print button\n5. Distribute updated links to users\n\n### Consumers\n\n1. Load the share URL in **DigiTwinXR SIOS**\n2. If anything looks incorrect, notify the provider",
+        "title": "Platform Walkthrough"
       }
       // For maps with satellite imagery, also see `showInAppGuides`
       // {

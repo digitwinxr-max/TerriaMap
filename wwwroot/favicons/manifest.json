@@ -1,5 +1,6 @@
 {
-  "name": "TerriaJS",
+  "name": "DigiTwinXR SIOS",
+  "short_name": "DigiTwinXR",
   "start_url": "/",
   "display": "standalone",
   "icons": [
