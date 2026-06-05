@@ -168,6 +168,70 @@
           ]
         },
         {
+          "id": "infrastructure-exposure-assessment",
+          "type": "group",
+          "name": "Infrastructure Exposure Assessment",
+          "description": "Climate risk analysis connecting climate intelligence to infrastructure investment decisions - Power, transport, water, and telecommunications exposure scoring",
+          "members": [
+            {
+              "id": "power-exposure",
+              "type": "group",
+              "name": "Energy Systems",
+              "description": "Power infrastructure exposure to climate threats - Substations, transmission lines, and generation assets",
+              "members": [
+                {
+                  "id": "power-at-risk",
+                  "type": "geojson",
+                  "name": "Power Infrastructure at Risk",
+                  "url": "data/power_infrastructure_risk.geojson"
+                }
+              ]
+            },
+            {
+              "id": "transport-exposure",
+              "type": "group",
+              "name": "Transport Networks",
+              "description": "Road network exposure to climate threats - National corridors and critical links",
+              "members": [
+                {
+                  "id": "roads-at-risk",
+                  "type": "geojson",
+                  "name": "Roads at Risk",
+                  "url": "data/roads_at_risk.geojson"
+                }
+              ]
+            },
+            {
+              "id": "water-exposure",
+              "type": "group",
+              "name": "Water Systems",
+              "description": "Water infrastructure exposure to climate threats - Dams, reservoirs, and treatment facilities",
+              "members": [
+                {
+                  "id": "water-assets-at-risk",
+                  "type": "geojson",
+                  "name": "Water Assets at Risk",
+                  "url": "data/water_assets_at_risk.geojson"
+                }
+              ]
+            },
+            {
+              "id": "telecom-exposure",
+              "type": "group",
+              "name": "Telecommunications",
+              "description": "Digital infrastructure exposure to climate threats - Towers, relay stations, and network nodes",
+              "members": [
+                {
+                  "id": "telecom-assets-at-risk",
+                  "type": "geojson",
+                  "name": "Telecom Assets at Risk",
+                  "url": "data/telecom_assets_at_risk.geojson"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "climate-intelligence",
           "type": "group",
           "name": "Climate & Environmental Intelligence",
