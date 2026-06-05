@@ -417,3 +417,196 @@ body {
     }
     */
 }
+
+
+/* ========================================
+   DigiTwinXR 3D Asset View Controls
+   ======================================== */
+
+.digtwinxr-view-controls {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9996;
+  background: rgba(40, 45, 52, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(77, 170, 255, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.digtwinxr-view-controls.collapsed {
+  max-width: 120px;
+}
+
+.digtwinxr-view-controls.collapsed .digtwinxr-view-controls__options {
+  display: none;
+}
+
+.digtwinxr-view-controls__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: linear-gradient(90deg, rgba(77, 170, 255, 0.15) 0%, transparent 100%);
+  border-bottom: 1px solid rgba(77, 170, 255, 0.2);
+}
+
+.digtwinxr-view-controls__title {
+  font-size: 10px;
+  font-weight: 600;
+  color: #4daaff;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.digtwinxr-view-controls__toggle {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.digtwinxr-view-controls__toggle:hover {
+  color: #fff;
+}
+
+.digtwinxr-view-controls__options {
+  display: flex;
+  padding: 4px;
+  gap: 4px;
+}
+
+.digtwinxr-view-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 12px;
+  background: rgba(28, 32, 38, 0.8);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 9px;
+  gap: 4px;
+}
+
+.digtwinxr-view-btn:hover {
+  background: rgba(77, 170, 255, 0.15);
+  border-color: rgba(77, 170, 255, 0.3);
+  color: #fff;
+}
+
+.digtwinxr-view-btn.active {
+  background: rgba(77, 170, 255, 0.25);
+  border-color: rgba(77, 170, 255, 0.5);
+  color: #4daaff;
+}
+
+.digtwinxr-view-icon {
+  font-size: 16px;
+}
+
+/* ========================================
+   DigiTwinXR Digital Twin Capability Panel
+   ======================================== */
+
+.digtwinxr-capability-panel {
+  position: fixed;
+  bottom: 150px;
+  left: 10px;
+  z-index: 9995;
+  width: 280px;
+  background: rgba(40, 45, 52, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(77, 170, 255, 0.25);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.digtwinxr-capability-panel.collapsed {
+  max-width: 180px;
+}
+
+.digtwinxr-capability-panel.collapsed .digtwinxr-capability-content {
+  display: none;
+}
+
+.digtwinxr-capability-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: linear-gradient(90deg, rgba(155, 89, 182, 0.15) 0%, transparent 100%);
+  border-bottom: 1px solid rgba(155, 89, 182, 0.2);
+}
+
+.digtwinxr-capability-title {
+  font-size: 10px;
+  font-weight: 600;
+  color: #9b59b6;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.digtwinxr-capability-toggle {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.digtwinxr-capability-toggle:hover {
+  color: #fff;
+}
+
+.digtwinxr-capability-content {
+  padding: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.digtwinxr-capability-content p {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+}
+
+.digtwinxr-capability-content ul {
+  margin: 0 0 8px 0;
+  padding-left: 16px;
+}
+
+.digtwinxr-capability-content li {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.digtwinxr-capability-content small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 9px;
+}
+
+@media (max-width: 768px) {
+  .digtwinxr-view-controls {
+    bottom: 70px;
+    left: 10px;
+    right: 10px;
+    transform: none;
+  }
+  
+  .digtwinxr-capability-panel {
+    display: none;
+  }
+}

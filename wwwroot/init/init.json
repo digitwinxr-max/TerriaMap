@@ -608,6 +608,70 @@
               "idColumn": "recommendation_id"
             }
           ]
+        },
+        {
+          "id": "digital-twin-assets",
+          "type": "group",
+          "name": "Digital Twin Assets",
+          "description": "Interactive 3D Digital Twin assets for infrastructure, mining, energy, and water systems. Supports Cesium 3D Tiles, GLB/glTF models, and reality capture outputs.",
+          "members": [
+            {
+              "id": "infrastructure-digital-twins",
+              "type": "group",
+              "name": "Infrastructure Digital Twins",
+              "description": "3D models of bridges, roads, buildings, and urban infrastructure systems",
+              "members": [
+                {
+                  "id": "infra-dt-placeholder",
+                  "type": "placeholder",
+                  "name": "Infrastructure Models",
+                  "url": "placeholder://infrastructure-3d"
+                }
+              ]
+            },
+            {
+              "id": "mining-digital-twins",
+              "type": "group",
+              "name": "Mining Digital Twins",
+              "description": "3D models of open-pit mines, processing facilities, and tailings storage",
+              "members": [
+                {
+                  "id": "mining-dt-placeholder",
+                  "type": "placeholder",
+                  "name": "Mining Assets",
+                  "url": "placeholder://mining-3d"
+                }
+              ]
+            },
+            {
+              "id": "energy-digital-twins",
+              "type": "group",
+              "name": "Energy Digital Twins",
+              "description": "3D models of power plants, solar farms, and transmission infrastructure",
+              "members": [
+                {
+                  "id": "energy-dt-placeholder",
+                  "type": "placeholder",
+                  "name": "Energy Systems",
+                  "url": "placeholder://energy-3d"
+                }
+              ]
+            },
+            {
+              "id": "water-digital-twins",
+              "type": "group",
+              "name": "Water Digital Twins",
+              "description": "3D models of dams, reservoirs, treatment plants, and irrigation systems",
+              "members": [
+                {
+                  "id": "water-dt-placeholder",
+                  "type": "placeholder",
+                  "name": "Water Infrastructure",
+                  "url": "placeholder://water-3d"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

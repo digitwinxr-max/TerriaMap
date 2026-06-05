@@ -153,5 +153,68 @@
         panel.classList.toggle('collapsed');
       }
     </script>
+
+    
+    <!-- DigiTwinXR 3D Asset View Controls -->
+    <div class="digtwinxr-view-controls" id="viewControls">
+      <div class="digtwinxr-view-controls__header">
+        <span class="digtwinxr-view-controls__title">3D Asset View</span>
+        <button class="digtwinxr-view-controls__toggle" onclick="toggleViewControls()" title="Toggle controls">×</button>
+      </div>
+      <div class="digtwinxr-view-controls__options">
+        <button class="digtwinxr-view-btn active" onclick="setViewMode('globe')" id="btnGlobe" title="Standard globe view">
+          <span class="digtwinxr-view-icon">🌍</span>
+          <span>Globe</span>
+        </button>
+        <button class="digtwinxr-view-btn" onclick="setViewMode('terrain')" id="btnTerrain" title="Terrain emphasis view">
+          <span class="digtwinxr-view-icon">🏔️</span>
+          <span>Terrain</span>
+        </button>
+        <button class="digtwinxr-view-btn" onclick="setViewMode('3dassets')" id="btn3DAssets" title="3D Tiles assets view">
+          <span class="digtwinxr-view-icon">📦</span>
+          <span>3D Assets</span>
+        </button>
+        <button class="digtwinxr-view-btn" onclick="setViewMode('combined')" id="btnCombined" title="Terrain + Digital Twin">
+          <span class="digtwinxr-view-icon">🎯</span>
+          <span>Combined</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- DigiTwinXR Digital Twin Capability Demonstration Panel -->
+    <div class="digtwinxr-capability-panel" id="capabilityPanel">
+      <div class="digtwinxr-capability-header">
+        <span class="digtwinxr-capability-title">Digital Twin Capability</span>
+        <button class="digtwinxr-capability-toggle" onclick="toggleCapabilityPanel()" title="Toggle panel">×</button>
+      </div>
+      <div class="digtwinxr-capability-content">
+        <p><strong>DigiTwinXR 3D Tiles Support</strong></p>
+        <ul>
+          <li>Cesium 3D Tiles for terrain and buildings</li>
+          <li>Infrastructure models (bridges, roads)</li>
+          <li>Mining assets (open-pit, facilities)</li>
+          <li>Energy systems (power plants, solar)</li>
+          <li>Water infrastructure (dams, treatment)</li>
+          <li>Reality capture (Photogrammetry, LiDAR)</li>
+        </ul>
+        <p><small>Supported: LuxCarta, Skyline PhotoMesh, Pointerra3D, GLB/3D Tiles</small></p>
+      </div>
+    </div>
+
+    <script>
+      function setViewMode(mode) {
+        document.querySelectorAll('.digtwinxr-view-btn').forEach(btn => btn.classList.remove('active'));
+        document.getElementById('btn' + mode.charAt(0).toUpperCase() + mode.slice(1)).classList.add('active');
+        window.dispatchEvent(new CustomEvent('digtwinxr:setViewMode', { detail: { mode: mode } }));
+      }
+      
+      function toggleViewControls() {
+        document.getElementById('viewControls').classList.toggle('collapsed');
+      }
+      
+      function toggleCapabilityPanel() {
+        document.getElementById('capabilityPanel').classList.toggle('collapsed');
+      }
+    </script>
   </body>
 </html>
