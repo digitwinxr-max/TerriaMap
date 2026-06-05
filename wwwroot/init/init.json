@@ -86,6 +86,88 @@
           ]
         },
         {
+          "id": "infrastructure-intelligence",
+          "type": "group",
+          "name": "Infrastructure Intelligence",
+          "description": "Critical infrastructure assets for climate resilience and investment planning - Energy, transport, water, and telecommunications systems",
+          "members": [
+            {
+              "id": "energy-systems",
+              "type": "group",
+              "name": "Energy Systems",
+              "description": "Power substations, solar farms, and transmission corridors",
+              "members": [
+                {
+                  "id": "power-substations",
+                  "type": "geojson",
+                  "name": "Power Substations",
+                  "url": "data/energy_infrastructure.geojson"
+                },
+                {
+                  "id": "solar-farms",
+                  "type": "geojson",
+                  "name": "Solar Farms",
+                  "url": "data/energy_infrastructure.geojson"
+                },
+                {
+                  "id": "transmission-corridors",
+                  "type": "geojson",
+                  "name": "Transmission Corridors",
+                  "url": "data/energy_infrastructure.geojson"
+                }
+              ]
+            },
+            {
+              "id": "transport-networks",
+              "type": "group",
+              "name": "Transport Networks",
+              "description": "National road corridors and transport infrastructure",
+              "members": [
+                {
+                  "id": "national-roads",
+                  "type": "geojson",
+                  "name": "National Road Corridors",
+                  "url": "data/transport_infrastructure.geojson"
+                }
+              ]
+            },
+            {
+              "id": "water-systems",
+              "type": "group",
+              "name": "Water Systems",
+              "description": "Dams and water treatment infrastructure",
+              "members": [
+                {
+                  "id": "dams",
+                  "type": "geojson",
+                  "name": "Dams",
+                  "url": "data/water_infrastructure.geojson"
+                },
+                {
+                  "id": "water-treatment",
+                  "type": "geojson",
+                  "name": "Water Treatment Plants",
+                  "url": "data/water_infrastructure.geojson"
+                }
+              ]
+            },
+            {
+              "id": "telecommunications",
+              "type": "group",
+              "name": "Telecommunications",
+              "description": "Telecom towers and digital infrastructure",
+              "members": [
+                {
+                  "id": "telecom-towers",
+                  "type": "geojson",
+                  "name": "Telecom Towers",
+                  "url": "data/telecom_infrastructure.geojson"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "climate-intelligence",
           "type": "group",
           "name": "Climate & Environmental Intelligence",
