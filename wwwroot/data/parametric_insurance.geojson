@@ -10,15 +10,23 @@
         "name": "Zambezi Flood Insurance Zone",
         "country": "Botswana/Zambia",
         "insurance_type": "Flood",
-        "coverage_potential_usd: 45000000,
-        "trigger_conditions: "River level > 8.5m at Kazungula",
-        "trigger_probability: "15% annual",
-        "climate_readiness: "High",
+        "coverage_potential_usd": 45000000,
+        "trigger_conditions": "River level > 8.5m at Kazungula",
+        "trigger_probability": "15% annual",
+        "climate_readiness": "High",
         "recommended_action": "Develop microinsurance products for local communities and SME infrastructure"
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[22.5, -17.5], [25.5, -17.5], [25.5, -18.5], [22.5, -18.5], [22.5, -17.5]]]
+        "coordinates": [
+          [
+            [22.5, -17.5],
+            [25.5, -17.5],
+            [25.5, -18.5],
+            [22.5, -18.5],
+            [22.5, -17.5]
+          ]
+        ]
       }
     },
     {
@@ -28,15 +36,23 @@
         "name": "Kalahari Drought Insurance Zone",
         "country": "Botswana",
         "insurance_type": "Drought",
-        "coverage_potential_usd: 85000000,
-        "trigger_conditions: "SPI < -1.5 for 6+ months",
-        "trigger_probability: "35% annual",
-        "climate_readiness: "High",
+        "coverage_potential_usd": 85000000,
+        "trigger_conditions": "SPI < -1.5 for 6+ months",
+        "trigger_probability": "35% annual",
+        "climate_readiness": "High",
         "recommended_action": "Partner with agricultural insurance providers for livestock and crop protection"
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[20.0, -21.0], [26.0, -21.0], [26.0, -25.0], [20.0, -25.0], [20.0, -21.0]]]
+        "coordinates": [
+          [
+            [20.0, -21.0],
+            [26.0, -21.0],
+            [26.0, -25.0],
+            [20.0, -25.0],
+            [20.0, -21.0]
+          ]
+        ]
       }
     },
     {
@@ -46,15 +62,23 @@
         "name": "Highveld Industrial Insurance Zone",
         "country": "South Africa",
         "insurance_type": "Multi-Hazard",
-        "coverage_potential_usd: 250000000,
-        "trigger_conditions: "Heat > 40°C, or Flood index > threshold",
+        "coverage_potential_usd": 250000000,
+        "trigger_conditions": "Heat > 40C, or Flood index > threshold",
         "trigger_probability": "25% annual",
-        "climate_readiness: "Medium",
+        "climate_readiness": "Medium",
         "recommended_action": "Develop enterprise parametric products for mining and energy sector clients"
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[26.5, -25.5], [30.0, -25.5], [30.0, -28.0], [26.5, -28.0], [26.5, -25.5]]]
+        "coordinates": [
+          [
+            [26.5, -25.5],
+            [30.0, -25.5],
+            [30.0, -28.0],
+            [26.5, -28.0],
+            [26.5, -25.5]
+          ]
+        ]
       }
     }
   ]

@@ -8,16 +8,24 @@
       "id": "cc-001",
       "properties": {
         "name": "Okavango Wetland Carbon",
-        "estimated_credits_tCO2: 850000,
-        "carbon_value_usd: 42500000,
+        "estimated_credits_tCO2": 850000,
+        "carbon_value_usd": 42500000,
         "verification_status": "Verified - Gold Standard",
-        "community_benefit_share: "40%",
-        "monitoring_method: "Satellite + Ground Truth",
+        "community_benefit_share": "40%",
+        "monitoring_method": "Satellite + Ground Truth",
         "recommended_action": "Scale to $50M annual revenue with expanded conservation area"
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[22.5, -18.0], [24.0, -18.0], [24.0, -19.5], [22.5, -19.5], [22.5, -18.0]]]
+        "coordinates": [
+          [
+            [22.5, -18.0],
+            [24.0, -18.0],
+            [24.0, -19.5],
+            [22.5, -19.5],
+            [22.5, -18.0]
+          ]
+        ]
       }
     },
     {
@@ -25,16 +33,24 @@
       "id": "cc-002",
       "properties": {
         "name": "Kalahari Savanna Carbon",
-        "estimated_credits_tCO2: 420000,
-        "carbon_value_usd: 21000000,
+        "estimated_credits_tCO2": 420000,
+        "carbon_value_usd": 21000000,
         "verification_status": "Verified - VCS",
-        "community_benefit_share: "35%",
-        "monitoring_method: "Satellite + Mobile Surveys",
+        "community_benefit_share": "35%",
+        "monitoring_method": "Satellite + Mobile Surveys",
         "recommended_action": "Implement improved grazing management for additional 15% credits"
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[20.0, -20.0], [24.0, -20.0], [24.0, -23.0], [20.0, -23.0], [20.0, -20.0]]]
+        "coordinates": [
+          [
+            [20.0, -20.0],
+            [24.0, -20.0],
+            [24.0, -23.0],
+            [20.0, -23.0],
+            [20.0, -20.0]
+          ]
+        ]
       }
     },
     {
@@ -42,16 +58,24 @@
       "id": "cc-003",
       "properties": {
         "name": "Drakensberg Forest Carbon",
-        "estimated_credits_tCO2: 1200000,
-        "carbon_value_usd: 60000000,
+        "estimated_credits_tCO2": 1200000,
+        "carbon_value_usd": 60000000,
         "verification_status": "In Progress - VCS",
-        "community_benefit_share: "45%",
-        "monitoring_method: "GEDI + Sentinel-2",
+        "community_benefit_share": "45%",
+        "monitoring_method": "GEDI + Sentinel-2",
         "recommended_action": "Expand forest conservation and implement community benefits program"
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[28.0, -28.0], [30.0, -28.0], [30.0, -29.5], [28.0, -29.5], [28.0, -28.0]]]
+        "coordinates": [
+          [
+            [28.0, -28.0],
+            [30.0, -28.0],
+            [30.0, -29.5],
+            [28.0, -29.5],
+            [28.0, -28.0]
+          ]
+        ]
       }
     }
   ]

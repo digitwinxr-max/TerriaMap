@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "High Risk Zone A",
+        "risk_level": "High",
+        "hazard_type": "Flood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [25, -25],
+            [26, -25],
+            [26, -24],
+            [25, -24],
+            [25, -25]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "High Risk Zone B",
+        "risk_level": "High",
+        "hazard_type": "Drought"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [20, -20],
+            [21, -20],
+            [21, -19],
+            [20, -19],
+            [20, -20]
+          ]
+        ]
+      }
+    }
+  ]
+}

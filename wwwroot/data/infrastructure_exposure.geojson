@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Power Grid Exposure",
+        "asset_id": "PG-001",
+        "exposure_level": "High",
+        "primary_hazard": "Storm"
+      },
+      "geometry": { "type": "Point", "coordinates": [25.5, -25.5] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Transport Corridor A",
+        "asset_id": "TC-001",
+        "exposure_level": "Medium",
+        "primary_hazard": "Flood"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [25, -25],
+          [26, -26],
+          [27, -27]
+        ]
+      }
+    }
+  ]
+}
