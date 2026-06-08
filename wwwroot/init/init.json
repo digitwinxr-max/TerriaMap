@@ -22,8 +22,7 @@
               "id": "exec-kpis",
               "type": "csv",
               "name": "Strategic KPI Dashboard",
-              "url": "data/executive_command_centre.csv",
-              "idColumn": "module_name"
+              "url": "data/executive_command_centre.csv"
             }
           ]
         },
@@ -37,15 +36,13 @@
               "id": "bif-flow",
               "type": "csv",
               "name": "Judge Demonstration Workflow",
-              "url": "data/bif_judge_demonstration_flow.csv",
-              "idColumn": "step_id"
+              "url": "data/bif_judge_demonstration_flow.csv"
             },
             {
               "id": "bif-scenarios",
               "type": "csv",
               "name": "SBIF Demo Scenarios",
-              "url": "data/bif_demonstration_scenarios.csv",
-              "idColumn": "scenario_id"
+              "url": "data/bif_demonstration_scenarios.csv"
             }
           ]
         },
@@ -59,29 +56,25 @@
               "id": "strategic-infra",
               "type": "csv",
               "name": "Infrastructure Dashboard",
-              "url": "data/strategic_infrastructure.csv",
-              "idColumn": "asset_id"
+              "url": "data/strategic_infrastructure.csv"
             },
             {
               "id": "predictive-maint",
               "type": "csv",
               "name": "Predictive Maintenance Dashboard",
-              "url": "data/predictive_maintenance.csv",
-              "idColumn": "asset_id"
+              "url": "data/predictive_maintenance.csv"
             },
             {
               "id": "investment-pipeline",
               "type": "csv",
               "name": "Strategic Investment Pipeline",
-              "url": "data/strategic_investment_pipeline.csv",
-              "idColumn": "project_id"
+              "url": "data/strategic_investment_pipeline.csv"
             },
             {
               "id": "digital-twin-scores",
               "type": "csv",
               "name": "Digital Twin Scoring Model",
-              "url": "data/digital_twin_scores.csv",
-              "idColumn": "asset_id"
+              "url": "data/digital_twin_scores.csv"
             }
           ]
         },
@@ -241,109 +234,55 @@
               "id": "climate-early-warning",
               "type": "geojson",
               "name": "Climate Risk Monitoring",
-              "url": "data/climate_early_warning.geojson",
-              "style": {
-                "fillColor": "#e74c3c",
-                "fillOpacity": 0.5,
-                "strokeColor": "#c0392b",
-                "strokeWidth": 3
-              }
+              "url": "data/climate_early_warning.geojson"
             },
             {
               "id": "flood-risk",
               "type": "geojson",
               "name": "Flood Exposure Analysis",
-              "url": "data/flood_risk.geojson",
-              "style": {
-                "fillColor": "#3498db",
-                "fillOpacity": 0.4,
-                "strokeColor": "#2980b9",
-                "strokeWidth": 2
-              }
+              "url": "data/flood_risk.geojson"
             },
             {
               "id": "drought-risk",
               "type": "geojson",
               "name": "Agricultural Resilience Assessment",
-              "url": "data/drought_risk.geojson",
-              "style": {
-                "fillColor": "#e74c3c",
-                "fillOpacity": 0.4,
-                "strokeColor": "#c0392b",
-                "strokeWidth": 2
-              }
+              "url": "data/drought_risk.geojson"
             },
             {
               "id": "heat-stress",
               "type": "geojson",
               "name": "Heat Impact Assessment",
-              "url": "data/heat_stress.geojson",
-              "style": {
-                "fillColor": "#f39c12",
-                "fillOpacity": 0.4,
-                "strokeColor": "#d68910",
-                "strokeWidth": 2
-              }
+              "url": "data/heat_stress.geojson"
             },
             {
               "id": "wildfire-risk",
               "type": "geojson",
               "name": "Environmental Risk Assessment",
-              "url": "data/wildfire_risk.geojson",
-              "style": {
-                "fillColor": "#e67e22",
-                "fillOpacity": 0.4,
-                "strokeColor": "#d35400",
-                "strokeWidth": 2
-              }
+              "url": "data/wildfire_risk.geojson"
             },
             {
               "id": "carbon-stocks",
               "type": "geojson",
               "name": "Carbon Asset Opportunities",
-              "url": "data/carbon_stocks.geojson",
-              "style": {
-                "fillColor": "#27ae60",
-                "fillOpacity": 0.4,
-                "strokeColor": "#229954",
-                "strokeWidth": 2
-              }
+              "url": "data/carbon_stocks.geojson"
             },
             {
               "id": "land-change",
               "type": "geojson",
               "name": "Land Use Change",
-              "url": "data/land_change.geojson",
-              "style": {
-                "fillColor": "#9b59b6",
-                "fillOpacity": 0.4,
-                "strokeColor": "#8e44ad",
-                "strokeWidth": 2
-              }
+              "url": "data/land_change.geojson"
             },
             {
               "id": "climate-vuln-index",
               "type": "geojson",
               "name": "Community Vulnerability Score",
-              "url": "data/climate_vulnerability_index.geojson",
-              "style": {
-                "fillColor": "#e74c3c",
-                "fillOpacity": 0.5,
-                "strokeColor": "#c0392b",
-                "strokeWidth": 3
-              }
+              "url": "data/climate_vulnerability_index.geojson"
             },
             {
               "id": "infra-exposure",
               "type": "geojson",
               "name": "Infrastructure Climate Exposure",
-              "url": "data/infrastructure_climate_exposure.geojson",
-              "style": {
-                "fillColor": "#f39c12",
-                "fillOpacity": 0.5,
-                "strokeColor": "#d68910",
-                "strokeWidth": 3
-              }
+              "url": "data/infrastructure_climate_exposure.geojson"
             }
           ]
         },
@@ -357,13 +296,7 @@
               "id": "eo-intelligence",
               "type": "geojson",
               "name": "Earth Observation Dashboard",
-              "url": "data/earth_observation_intelligence.geojson",
-              "style": {
-                "fillColor": "#2ecc71",
-                "fillOpacity": 0.4,
-                "strokeColor": "#27ae60",
-                "strokeWidth": 2
-              }
+              "url": "data/earth_observation_intelligence.geojson"
             }
           ]
         },
@@ -377,13 +310,7 @@
               "id": "infra-risk-index",
               "type": "geojson",
               "name": "Southern Africa Infrastructure Risk Index",
-              "url": "data/infrastructure_risk_index.geojson",
-              "style": {
-                "fillColor": "#e74c3c",
-                "fillOpacity": 0.5,
-                "strokeColor": "#c0392b",
-                "strokeWidth": 3
-              }
+              "url": "data/infrastructure_risk_index.geojson"
             }
           ]
         },
@@ -397,8 +324,7 @@
               "id": "agri-dash",
               "type": "csv",
               "name": "Agricultural Dashboard",
-              "url": "data/agricultural_resilience.csv",
-              "idColumn": "asset_id"
+              "url": "data/agricultural_resilience.csv"
             }
           ]
         },
@@ -412,8 +338,7 @@
               "id": "water-dash",
               "type": "csv",
               "name": "Water Infrastructure Dashboard",
-              "url": "data/water_intelligence.csv",
-              "idColumn": "asset_id"
+              "url": "data/water_intelligence.csv"
             }
           ]
         },
@@ -427,8 +352,7 @@
               "id": "energy-dash",
               "type": "csv",
               "name": "Energy Transition Dashboard",
-              "url": "data/energy_transition.csv",
-              "idColumn": "asset_id"
+              "url": "data/energy_transition.csv"
             }
           ]
         },
@@ -442,8 +366,7 @@
               "id": "mining-dash",
               "type": "csv",
               "name": "Mining Operations Dashboard",
-              "url": "data/mining_intelligence.csv",
-              "idColumn": "asset_id"
+              "url": "data/mining_intelligence.csv"
             }
           ]
         },
@@ -457,8 +380,7 @@
               "id": "logistics-dash",
               "type": "csv",
               "name": "Logistics Dashboard",
-              "url": "data/logistics_trade.csv",
-              "idColumn": "asset_id"
+              "url": "data/logistics_trade.csv"
             }
           ]
         },
@@ -472,8 +394,7 @@
               "id": "ict-dash",
               "type": "csv",
               "name": "Digital Infrastructure Dashboard",
-              "url": "data/ict_digital.csv",
-              "idColumn": "asset_id"
+              "url": "data/ict_digital.csv"
             }
           ]
         },
@@ -487,39 +408,25 @@
               "id": "cf-dash",
               "type": "csv",
               "name": "Climate Finance Investment Dashboard",
-              "url": "data/climate_finance_upgrade.csv",
-              "idColumn": "asset_id"
+              "url": "data/climate_finance_upgrade.csv"
             },
             {
               "id": "carbon-credits",
               "type": "geojson",
               "name": "Carbon Finance Opportunities",
-              "url": "data/carbon_credit_opportunities.geojson",
-              "style": {
-                "fillColor": "#27ae60",
-                "fillOpacity": 0.5,
-                "strokeColor": "#229954",
-                "strokeWidth": 2
-              }
+              "url": "data/carbon_credit_opportunities.geojson"
             },
             {
               "id": "parametric-insurance",
               "type": "geojson",
               "name": "Climate Protection Solutions",
-              "url": "data/parametric_insurance.geojson",
-              "style": {
-                "fillColor": "#3498db",
-                "fillOpacity": 0.5,
-                "strokeColor": "#2980b9",
-                "strokeWidth": 2
-              }
+              "url": "data/parametric_insurance.geojson"
             },
             {
               "id": "cf-original",
               "type": "csv",
               "name": "Climate Finance Projects",
-              "url": "data/climate_finance.csv",
-              "idColumn": "asset_id"
+              "url": "data/climate_finance.csv"
             }
           ]
         },
@@ -533,13 +440,7 @@
               "id": "fs-opportunities",
               "type": "geojson",
               "name": "Market Opportunity Map",
-              "url": "data/frost_sullivan_opportunity_map.geojson",
-              "style": {
-                "fillColor": "#9b59b6",
-                "fillOpacity": 0.3,
-                "strokeColor": "#8e44ad",
-                "strokeWidth": 3
-              }
+              "url": "data/frost_sullivan_opportunity_map.geojson"
             }
           ]
         },
@@ -553,8 +454,7 @@
               "id": "sadc-exp",
               "type": "csv",
               "name": "Expansion Readiness Assessment",
-              "url": "data/sadc_expansion_simulator.csv",
-              "idColumn": "country"
+              "url": "data/sadc_expansion_simulator.csv"
             }
           ]
         },
@@ -568,29 +468,25 @@
               "id": "regional-exp",
               "type": "csv",
               "name": "Regional Expansion Dashboard",
-              "url": "data/regional_expansion_optimized.csv",
-              "idColumn": "asset_id"
+              "url": "data/regional_expansion_optimized.csv"
             },
             {
               "id": "botswana-exp",
               "type": "csv",
               "name": "Botswana Expansion Readiness",
-              "url": "data/botswana_expansion.csv",
-              "idColumn": "asset_id"
+              "url": "data/botswana_expansion.csv"
             },
             {
               "id": "namibia-exp",
               "type": "csv",
               "name": "Namibia Expansion Readiness",
-              "url": "data/namibia_expansion.csv",
-              "idColumn": "asset_id"
+              "url": "data/namibia_expansion.csv"
             },
             {
               "id": "southafrica-exp",
               "type": "csv",
               "name": "South Africa Expansion Readiness",
-              "url": "data/southafrica_expansion.csv",
-              "idColumn": "asset_id"
+              "url": "data/southafrica_expansion.csv"
             }
           ]
         },
@@ -604,8 +500,7 @@
               "id": "ai-reco",
               "type": "csv",
               "name": "AI Investment Recommendations",
-              "url": "data/ai_recommendations.csv",
-              "idColumn": "recommendation_id"
+              "url": "data/ai_recommendations.csv"
             }
           ]
         },
@@ -747,7 +642,6 @@
               "type": "csv",
               "name": "AI Investment Recommendations",
               "url": "data/ai_recommendations.csv",
-              "idColumn": "recommendation_id",
               "isShown": true
             }
           ]
@@ -778,12 +672,6 @@
               "type": "geojson",
               "name": "Market Opportunity Map",
               "url": "data/frost_sullivan_opportunity_map.geojson",
-              "style": {
-                "fillColor": "#9b59b6",
-                "fillOpacity": 0.3,
-                "strokeColor": "#8e44ad",
-                "strokeWidth": 3
-              },
               "isShown": true
             }
           ]
@@ -814,7 +702,6 @@
               "type": "csv",
               "name": "Carbon Finance Opportunities",
               "url": "data/carbon_finance.csv",
-              "idColumn": "asset_id",
               "isShown": true
             }
           ]
