@@ -623,9 +623,8 @@
               "members": [
                 {
                   "id": "infra-dt-placeholder",
-                  "type": "placeholder",
-                  "name": "Infrastructure Models",
-                  "url": "placeholder://infrastructure-3d"
+                  "type": "stub",
+                  "name": "Infrastructure Models"
                 }
               ]
             },
@@ -637,9 +636,8 @@
               "members": [
                 {
                   "id": "mining-dt-placeholder",
-                  "type": "placeholder",
-                  "name": "Mining Assets",
-                  "url": "placeholder://mining-3d"
+                  "type": "stub",
+                  "name": "Mining Assets"
                 }
               ]
             },
@@ -651,9 +649,8 @@
               "members": [
                 {
                   "id": "energy-dt-placeholder",
-                  "type": "placeholder",
-                  "name": "Energy Systems",
-                  "url": "placeholder://energy-3d"
+                  "type": "stub",
+                  "name": "Energy Systems"
                 }
               ]
             },
@@ -665,9 +662,8 @@
               "members": [
                 {
                   "id": "water-dt-placeholder",
-                  "type": "placeholder",
-                  "name": "Water Infrastructure",
-                  "url": "placeholder://water-3d"
+                  "type": "stub",
+                  "name": "Water Infrastructure"
                 }
               ]
             }
